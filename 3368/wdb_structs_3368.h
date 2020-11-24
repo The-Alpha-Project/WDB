@@ -17,8 +17,8 @@ struct CGPetition
   short m_allowedGender;
   int m_allowedMinLevel;
   int m_allowedMaxLevel;
-  char *m_choicetext[10];
   int m_numChoices;
+  char *m_choicetext[10]; // m_numChoices, hard limit of 10
   unsigned int m_muid;
 };
 
