@@ -1,0 +1,2239 @@
+Original Logtype: LIBPCAP_LITTLEENDIAN
+
+GAME SERVER:                                          @ 0 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d9 63 03 00 00 40 00 f0 87 a0 16 45 4a dd ac 43     Ÿc...@.á†.EJ›¨C
+         50 29 16 42 af c6 90 00 00 00 00 00 00 f6 04 00     P).BØ∆ê......ˆ..
+         00 01 00 00 00 50 c5 16 45 09 c5 ab 43 50 29 16     .....P≈.E.≈´CP).
+         42                                                  B
+
+GAME CLIENT:                                          @ 0.443029880523682 s
+  Length = 8
+  Opcode = CMSG_SET_TARGET[0000013c]
+  Data = 
+         9d a4 04 00 00 40 00 f0                             ù§...@.
+
+GAME CLIENT:                                          @ 0.642922878265381 s
+  Length = 8
+  Opcode = CMSG_SET_TARGET[0000013c]
+  Data = 
+         00 00 00 00 00 00 00 00                             ........
+
+GAME SERVER:                                          @ 0.8247389793396 s
+  Length = 42
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 165
+  Update Count = 2
+
+  Update Type = UpdateObject[0]
+  Object GUID = 9da40400004000f0 
+  Mask Block Count = 6
+  Object type is unknown; multiple potential updatevalues will be listed.
+  Update Data = 
+         00 9d a4 04 00 00 40 00 f0 06 00 00 00 00 00 00     .ù§...@........
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00                                               ..
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_SPELL_CHARGES[0] = 00000000 (as uint32: 0)
+   UNIT_FIELD_TARGET[0] = 00000000 (as uint32: 0)
+   GAMEOBJECT_POS_Z = 00000000 (as uint32: 0)
+   CORPSE_FIELD_ITEM[3] = 00000000 (as uint32: 0)
+   ITEM_FIELD_SPELL_CHARGES[1] = 00000000 (as uint32: 0)
+   UNIT_FIELD_TARGET[1] = 00000000 (as uint32: 0)
+   GAMEOBJECT_FACING = 00000000 (as uint32: 0)
+   CORPSE_FIELD_ITEM[4] = 00000000 (as uint32: 0)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 03 00 00 00     .‰0.............
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00           ..............
+
+GAME SERVER:                                          @ 1.21393799781799 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         44 bc 02 00 00 40 00 f0 a5 16 12 45 52 7a a4 43     Dº...@.•..ERz§C
+         6e 3e 0e 42 f1 c7 90 00 00 00 00 00 00 af 01 00     n>.BÒ«ê......Ø..
+         00 01 00 00 00 d2 10 12 45 9f f9 a3 43 6e be 0d     .....“..Eü˘£Cnæ.
+         42                                                  B
+
+GAME SERVER:                                          @ 1.49714493751526 s
+  Length = 56
+  Opcode = SMSG_MESSAGECHAT[0096]
+  Data = 
+         0d 00 00 00 00 47 65 6e 65 72 61 6c 20 2d 20 54     .....General - T
+         69 72 69 73 66 61 6c 20 47 6c 61 64 65 73 00 2a     irisfal Glades.*
+         70 12 00 00 00 00 00 6f 6d 67 20 79 6f 75 20 70     p......omg you p
+         77 6e 74 20 6d 65 00 00                             wnt me..
+
+GAME CLIENT:                                          @ 2.10888290405273 s
+  Length = 20
+  Opcode = CMSG_PET_ACTION[00000173]
+  Data = 
+         9d a4 04 00 00 40 00 f0 03 00 00 07 9d a4 04 00     ù§...@.....ù§..
+         00 40 00 f0                                         .@.
+
+GAME SERVER:                                          @ 2.15067005157471 s
+  Length = 8
+  Opcode = SMSG_DESTROY_OBJECT[00aa]
+  Data = 
+         9d a4 04 00 00 40 00 f0                             ù§...@.
+
+GAME CLIENT:                                          @ 2.17568707466125 s
+  Length = 8
+  Opcode = CMSG_SET_SELECTION[0000013b]
+  Data = 
+         00 00 00 00 00 00 00 00                             ........
+
+GAME CLIENT:                                          @ 2.17648887634277 s
+  Length = 4
+  Opcode = CMSG_PING[000001da]
+  Data = 
+         1c 00 00 00                                         ....
+
+GAME SERVER:                                          @ 2.21289300918579 s
+  Length = 4
+  Opcode = SMSG_PONG[01db]
+  Data = 
+         1c 00 00 00                                         ....
+
+GAME SERVER:                                          @ 2.43044900894165 s
+  Length = 44
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 144
+  Update Count = 2
+
+  Update Type = UpdateOutOfRangeObjects[3]
+  GUID Count = 1
+  GUID = 44bc0200004000f0 
+  Update Data = 
+         03 01 00 00 00 44 bc 02 00 00 40 00 f0              .....Dº...@.
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   PLAYER_SELECTION[0] = 00000000 (as uint32: 0)
+   PLAYER_SELECTION[1] = 00000000 (as uint32: 0)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 00 00 00 00     .‰0.............
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 30 00     ..............0.
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00           ..............
+
+GAME SERVER:                                          @ 2.58664608001709 s
+  Length = 8
+  Opcode = SMSG_PET_SPELLS[0177]
+  Data = 
+         00 00 00 00 00 00 00 00                             ........
+
+GAME SERVER:                                          @ 2.80977702140808 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d9 63 03 00 00 40 00 f0 50 c5 16 45 09 c5 ab 43     Ÿc...@.P≈.E.≈´C
+         50 29 16 42 87 c9 90 00 00 00 00 00 00 3b 0e 00     P).Bá…ê......;..
+         00 01 00 00 00 e8 cf 16 45 8c 3b a7 43 50 a9 17     .....Ëœ.Eå;ßCP©.
+         42                                                  B
+
+GAME SERVER:                                          @ 2.98914694786072 s
+  Length = 27
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 131
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_CONTAINED[0] = 00000000 (as uint32: 0)
+   UNIT_FIELD_SUMMON[0] = 00000000 (as uint32: 0)
+   GAMEOBJECT_ROTATION[0] = 00000000 (as uint32: 0)
+   DYNAMICOBJECT_BYTES = 00000000 (as uint32: 0)
+   CORPSE_FIELD_FACING = 00000000 (as uint32: 0)
+   ITEM_FIELD_CONTAINED[1] = 00000000 (as uint32: 0)
+   UNIT_FIELD_SUMMON[1] = 00000000 (as uint32: 0)
+   GAMEOBJECT_ROTATION[1] = 00000000 (as uint32: 0)
+   DYNAMICOBJECT_SPELLID = 00000000 (as uint32: 0)
+   CORPSE_FIELD_POS_X = 00000000 (as uint32: 0)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 03 00 00 00 00     .‰0.............
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00           ..............
+
+GAME SERVER:                                          @ 4.41892004013062 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         79 3d 00 00 00 10 00 f0 f5 75 16 45 82 94 cc 43     y=.....ıu.EÇîÃC
+         f9 ad 0f 42 60 cb 90 00 00 00 00 00 00 a2 0a 00     ˘≠.B`Àê......¢..
+         00 01 00 00 00 03 86 16 45 a0 f1 cf 43 f9 2d 10     ......Ü.E†ÒœC˘-.
+         42                                                  B
+
+GAME CLIENT:                                          @ 4.84405589103699 s
+  Length = 6
+  Opcode = CMSG_CAST_SPELL[0000012c]
+  Data = 
+         b9 02 00 00 00 00                                   π.....
+
+GAME SERVER:                                          @ 4.92829489707947 s
+  Length = 28
+  Opcode = SMSG_SPELL_START[012f]
+  Data = 
+         e4 30 0b 00 00 00 00 00 e4 30 0b 00 00 00 00 00     ‰0......‰0......
+         b9 02 00 00 02 00 10 27 00 00 00 00                 π......'....
+
+GAME CLIENT:                                          @ 6.24245095252991 s
+  Length = 24
+  Opcode = MSG_MOVE_START_BACKWARD[000000b6]
+  Location: 3.07406803627876e-036, 2386.9755859375, 422.385711669922
+  Data = 
+         02 00 00 00 a3 c1 82 04 9c 2f 15 45 5f 31 d3 43     ....£¡Ç.ú/.E_1”C
+         7f c3 07 42 56 8e db 3e                             √.BVé€>
+
+GAME SERVER:                                          @ 6.34388494491577 s
+  Length = 13
+  Opcode = SMSG_SPELL_FAILURE[0131]
+  Data = 
+         e4 30 0b 00 00 00 00 00 b9 02 00 00 18              ‰0......π....
+
+GAME CLIENT:                                          @ 6.45939302444458 s
+  Length = 24
+  Opcode = MSG_MOVE_STOP[000000b7]
+  Location: 3.07414588121105e-036, 2386.08740234375, 421.979675292969
+  Data = 
+         00 00 00 00 7c c2 82 04 66 21 15 45 66 fd d2 43     ....|¬Ç.f!.Ef˝“C
+         f5 8f 07 42 56 8e db 3e                             ıè.BVé€>
+
+GAME SERVER:                                          @ 6.4957869052887 s
+  Length = 6
+  Opcode = SMSG_CAST_RESULT[012e]
+  Data = 
+         b9 02 00 00 02 18                                   π.....
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d1 a2 04 00 00 40 00 f0 aa 30 19 45 ff 9f f0 43     —¢...@.™0.EˇüC
+         00 c5 32 42 94 cd 90 00 00 00 00 00 00 16 0e 00     .≈2BîÕê.........
+         00 01 00 00 00 dd b6 18 45 ca 07 f3 43 00 c5 30     .....›∂.E .ÛC.≈0
+         42                                                  B
+
+GAME CLIENT:                                          @ 6.52744007110596 s
+  Length = 4
+  Opcode = CMSG_CANCEL_CAST[0000012d]
+  Data = 
+         b9 02 00 00                                         π...
+
+GAME SERVER:                                          @ 7.221834897995 s
+  Length = 53
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         61 06 04 00 00 40 00 f0 64 0f 13 45 28 f3 eb 43     a....@.d..E(ÛÎC
+         f5 6b 05 42 45 ce 90 00 00 00 00 00 00 63 13 00     ık.BEŒê......c..
+         00 02 00 00 00 4b d3 13 45 20 4f eb 43 f5 6b 0b     .....K”.E OÎCık.
+         42 11 f0 bf 00                                      B.ø.
+
+GAME SERVER:                                          @ 8.03198289871216 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         79 3d 00 00 00 10 00 f0 03 86 16 45 a0 f1 cf 43     y=......Ü.E†ÒœC
+         f9 2d 10 42 58 cf 90 00 00 00 00 00 00 e8 0a 00     ˘-.BXœê......Ë..
+         00 01 00 00 00 1a 1a 16 45 e2 29 cf 43 f9 ad 0c     ........E‚)œC˘≠.
+         42                                                  B
+
+GAME SERVER:                                          @ 8.22164702415466 s
+  Length = 53
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         e3 cf 03 00 00 40 00 f0 bd 3a 15 45 95 64 b9 43     „œ...@.Ω:.EïdπC
+         20 78 11 42 72 cf 90 00 00 00 00 00 00 63 20 00      x.Brœê......c .
+         00 02 00 00 00 0a 1b 14 45 44 61 b4 43 fb 79 18     ........EDa¥C˚y.
+         42 c9 0f ff 00                                      B….ˇ.
+
+GAME CLIENT:                                          @ 8.32672095298767 s
+  Length = 6
+  Opcode = CMSG_CAST_SPELL[0000012c]
+  Data = 
+         b9 02 00 00 00 00                                   π.....
+
+GAME SERVER:                                          @ 8.41431784629822 s
+  Length = 28
+  Opcode = SMSG_SPELL_START[012f]
+  Data = 
+         e4 30 0b 00 00 00 00 00 e4 30 0b 00 00 00 00 00     ‰0......‰0......
+         b9 02 00 00 02 00 10 27 00 00 00 00                 π......'....
+
+GAME SERVER:                                          @ 9.05110788345337 s
+  Length = 74
+  Opcode = SMSG_MESSAGECHAT[0096]
+  Data = 
+         0d 00 00 00 00 47 65 6e 65 72 61 6c 20 2d 20 54     .....General - T
+         69 72 69 73 66 61 6c 20 47 6c 61 64 65 73 00 84     irisfal Glades.Ñ
+         2f 12 00 00 00 00 00 67 6f 64 2c 20 69 20 64 69     /......god, i di
+         64 6e 74 20 73 74 61 72 74 20 6f 6e 20 6d 79 20     dnt start on my 
+         68 6f 6d 65 6f 77 72 6b 00 00                       homeowrk..
+
+GAME CLIENT:                                          @ 10.0588629245758 s
+  Length = 24
+  Opcode = MSG_MOVE_START_BACKWARD[000000b6]
+  Location: 3.07543731787577e-036, 2386.08740234375, 421.979675292969
+  Data = 
+         02 00 00 00 8c d0 82 04 66 21 15 45 66 fd d2 43     ....å–Ç.f!.Ef˝“C
+         f5 8f 07 42 56 8e db 3e                             ıè.BVé€>
+
+GAME SERVER:                                          @ 10.1344819068909 s
+  Length = 13
+  Opcode = SMSG_SPELL_FAILURE[0131]
+  Data = 
+         e4 30 0b 00 00 00 00 00 b9 02 00 00 18              ‰0......π....
+
+GAME CLIENT:                                          @ 10.2587518692017 s
+  Length = 24
+  Opcode = MSG_MOVE_STOP[000000b7]
+  Location: 3.07550906435714e-036, 2385.26879882813, 421.60546875
+  Data = 
+         00 00 00 00 54 d1 82 04 4d 14 15 45 80 cd d2 43     ....T—Ç.M..EÄÕ“C
+         d3 8f 07 42 56 8e db 3e                             ”è.BVé€>
+
+GAME SERVER:                                          @ 10.2950818538666 s
+  Length = 6
+  Opcode = SMSG_CAST_RESULT[012e]
+  Data = 
+         b9 02 00 00 02 18                                   π.....
+
+GAME CLIENT:                                          @ 10.3269469738007 s
+  Length = 4
+  Opcode = CMSG_CANCEL_CAST[0000012d]
+  Data = 
+         b9 02 00 00                                         π...
+
+GAME SERVER:                                          @ 10.4353978633881 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d1 a2 04 00 00 40 00 f0 dd b6 18 45 ca 07 f3 43     —¢...@.›∂.E .ÛC
+         00 c5 30 42 06 d2 90 00 00 00 00 00 00 18 0e 00     .≈0B.“ê.........
+         00 01 00 00 00 aa 30 19 45 ff 9f f0 43 00 c5 32     .....™0.EˇüC.≈2
+         42                                                  B
+
+GAME SERVER:                                          @ 11.252415895462 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d9 63 03 00 00 40 00 f0 e8 cf 16 45 8c 3b a7 43     Ÿc...@.Ëœ.Eå;ßC
+         50 a9 17 42 0f d3 90 00 00 00 00 00 00 c1 0b 00     P©.B.”ê......¡..
+         00 01 00 00 00 60 fb 16 45 28 b6 aa 43 50 29 14     .....`˚.E(∂™CP).
+         42                                                  B
+
+GAME CLIENT:                                          @ 11.5265529155731 s
+  Length = 6
+  Opcode = CMSG_CAST_SPELL[0000012c]
+  Data = 
+         b9 02 00 00 00 00                                   π.....
+
+GAME SERVER:                                          @ 11.6519110202789 s
+  Length = 53
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         79 3d 00 00 00 10 00 f0 1a 1a 16 45 e2 29 cf 43     y=........E‚)œC
+         f9 ad 0c 42 76 d3 90 00 00 00 00 00 00 87 27 00     ˘≠.Bv”ê......á'.
+         00 02 00 00 00 ca a1 17 45 69 1d cc 43 f9 ad 10     ..... °.Ei.ÃC˘≠.
+         42 3b 88 3f 00                                      B;à?.
+
+GAME SERVER:                                          @ 11.8432929515839 s
+  Length = 28
+  Opcode = SMSG_SPELL_START[012f]
+  Data = 
+         e4 30 0b 00 00 00 00 00 e4 30 0b 00 00 00 00 00     ‰0......‰0......
+         b9 02 00 00 02 00 10 27 00 00 00 00                 π......'....
+
+GAME SERVER:                                          @ 12.0445408821106 s
+  Length = 58
+  Opcode = SMSG_MESSAGECHAT[0096]
+  Data = 
+         0d 00 00 00 00 47 65 6e 65 72 61 6c 20 2d 20 54     .....General - T
+         69 72 69 73 66 61 6c 20 47 6c 61 64 65 73 00 84     irisfal Glades.Ñ
+         2f 12 00 00 00 00 00 69 20 68 61 74 65 20 68 69     /......i hate hi
+         67 68 73 63 68 6f 6f 6c 00 00                       ghschool..
+
+GAME SERVER:                                          @ 12.870570898056 s
+  Length = 281
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 639
+  Update Count = 2
+
+  Update Type = CreateObject[2]
+  Object GUID = 98490000001000f0 
+  Object Type = ID_UNIT[3]
+  Movement Flags = 0x00600101 [b00000000011000000000000100000001]
+  Position = 2294.37280273438, 393.863861083984, 34.0386009216309
+  Orientation = 0.144817650318146
+  Walk Speed = 2.5
+  Run Speed = 8
+  Back Speed = 4.5
+  Swim Speed = 4.72222232818604
+  Back Speed = 2.5
+  Turn Speed = 3.14159274101257
+  Spline Flags = 0x00000000 [b00000000000000000000000000000000]
+  Current Journey Time = 1218
+  Total Journey Time = 8600
+  Spline Count = 4
+  Spline Point = 2290.7197265625, 392.753692626953, 34.0051116943359
+  Spline Point = 2291.44921875, 393.4375, 34.0750770568848
+  Spline Point = 2312.720703125, 396.539703369141, 33.8096809387207
+  Spline Point = 2312.720703125, 396.539703369141, 33.8096809387207
+  Creation Flags = 0x00000000 [b00000000000000000000000000000000]
+  Attack cycle = 0x00000001
+  Timer = 00000000
+  Victim = 0000000000000000
+  Mask Block Count = 6
+   OBJECT_FIELD_GUID[0] = 98490000 (as uint32: 18840)
+   OBJECT_FIELD_GUID[1] = 001000f0
+   OBJECT_FIELD_TYPE = 09000000 (as uint32: 9)
+   OBJECT_FIELD_ENTRY = ce060000 (as uint32: 1742)
+   OBJECT_FIELD_SCALE_X = 0000803f (as float: 1)
+   OBJECT_FIELD_PADDING[0] = eeeeeeee
+   UNIT_FIELD_HEALTH = 64000000 (as uint32: 100)
+   UNIT_FIELD_POWER1 = 64000000 (as uint32: 100)
+   UNIT_FIELD_POWER5 = 40420f00 (as uint32: 1000000)
+   UNIT_FIELD_MAXHEALTH = 64000000 (as uint32: 100)
+   UNIT_FIELD_MAXPOWER1 = 64000000 (as uint32: 100)
+   UNIT_FIELD_MAXPOWER5 = 40420f00 (as uint32: 1000000)
+   UNIT_FIELD_LEVEL = 16000000 (as uint32: 22)
+   UNIT_FIELD_FACTIONTEMPLATE = 47000000 (as uint32: 71)
+   UNIT_FIELD_BYTES_0 = 00010001 (as uint32: 16777472)
+   UNIT_VIRTUAL_ITEM_SLOT_DISPLAY[0] = 041d0000 (as uint32: 7428)
+   UNIT_VIRTUAL_ITEM_INFO[0] = 0200010d (as uint32: 218169346)
+   UNIT_VIRTUAL_ITEM_INFO[1] = 03000000 (as uint32: 3)
+   UNIT_FIELD_FLAGS = 00100000 (as uint32: 4096)
+   UNIT_FIELD_AURALEVELS[0] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[1] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[2] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[3] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[4] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[5] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[6] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[7] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[8] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[9] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[0] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[1] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[2] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[3] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[4] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[5] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[6] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[7] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[8] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[9] = eeeeeeee
+   UNIT_FIELD_BASEATTACKTIME[0] = d0070000 (as uint32: 2000)
+   UNIT_FIELD_BASEATTACKTIME[1] = d0070000 (as uint32: 2000)
+   UNIT_FIELD_BOUNDINGRADIUS = 9318c43e (as float: 0.382999986410141)
+   UNIT_FIELD_COMBATREACH = 0000c03f (as float: 1.5)
+   UNIT_FIELD_DISPLAYID = 250b0000 (as uint32: 2853)
+   UNIT_FIELD_BYTES_1 = 00ee0000 (as uint32: 60928)
+  Update Data = 
+         02 98 49 00 00 00 10 00 f0 03 01 01 60 00 4b 27     .òI........`.K'
+         bb d7 f7 65 0f 45 93 ee c4 43 87 27 08 42 14 4b     ª◊˜e.EìÓƒCá'.B.K
+         14 3e 00 00 20 40 00 00 00 41 00 00 90 40 72 1c     .>.. @...A..ê@r.
+         97 40 00 00 20 40 db 0f 49 40 00 00 00 00 c2 04     ó@.. @€.I@....¬.
+         00 00 98 21 00 00 04 00 00 00 84 2b 0f 45 79 60     ..ò!......Ñ+.Ey`
+         c4 43 3c 05 08 42 30 37 0f 45 00 b8 c4 43 e1 4c     ƒC<..B07.E.∏ƒC·L
+         08 42 88 8b 10 45 15 45 c6 43 1d 3d 07 42 88 8b     .Bàã.E.E∆C.=.Bàã
+         10 45 15 45 c6 43 1d 3d 07 42 00 00 00 00 01 00     .E.E∆C.=.B......
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 06 3f     ...............?
+         00 30 8e cf 10 00 00 00 00 00 00 e0 ff ff 01 5e     .0éœ.......‡ˇˇ.^
+         04 00 00 00 00 00 00 98 49 00 00 00 10 00 f0 09     .......òI......
+         00 00 00 ce 06 00 00 00 00 80 3f ee ee ee ee 64     ...Œ.....Ä?ÓÓÓÓd
+         00 00 00 64 00 00 00 40 42 0f 00 64 00 00 00 64     ...d...@B..d...d
+         00 00 00 40 42 0f 00 16 00 00 00 47 00 00 00 00     ...@B......G....
+         01 00 01 04 1d 00 00 02 00 01 0d 03 00 00 00 00     ................
+         10 00 00 ee ee ee ee ee ee ee ee ee ee ee ee ee     ...ÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee d0 07 00 00 d0 07 00 00 93 18 c4 3e 00     ÓÓÓ–...–...ì.ƒ>.
+         00 c0 3f 25 0b 00 00 00 ee 00 00                    .¿?%....Ó..
+
+  Update Type = CreateObject[2]
+  Object GUID = 71180000001000f0 
+  Object Type = ID_UNIT[3]
+  Movement Flags = 0x00400000 [b00000000010000000000000000000000]
+  Position = 2287.66259765625, 403.371978759766, 34.0048179626465
+  Orientation = 3.10668611526489
+  Walk Speed = 2.5
+  Run Speed = 8
+  Back Speed = 4.5
+  Swim Speed = 4.72222232818604
+  Back Speed = 2.5
+  Turn Speed = 3.14159274101257
+  Creation Flags = 0x00000000 [b00000000000000000000000000000000]
+  Attack cycle = 0x00000001
+  Timer = 00000000
+  Victim = 0000000000000000
+  Mask Block Count = 6
+   OBJECT_FIELD_GUID[0] = 71180000 (as uint32: 6257)
+   OBJECT_FIELD_GUID[1] = 001000f0
+   OBJECT_FIELD_TYPE = 09000000 (as uint32: 9)
+   OBJECT_FIELD_ENTRY = d8050000 (as uint32: 1496)
+   OBJECT_FIELD_SCALE_X = 0000803f (as float: 1)
+   OBJECT_FIELD_PADDING[0] = eeeeeeee
+   UNIT_FIELD_HEALTH = 64000000 (as uint32: 100)
+   UNIT_FIELD_POWER1 = 64000000 (as uint32: 100)
+   UNIT_FIELD_POWER5 = 40420f00 (as uint32: 1000000)
+   UNIT_FIELD_MAXHEALTH = 64000000 (as uint32: 100)
+   UNIT_FIELD_MAXPOWER1 = 64000000 (as uint32: 100)
+   UNIT_FIELD_MAXPOWER5 = 40420f00 (as uint32: 1000000)
+   UNIT_FIELD_LEVEL = 16000000 (as uint32: 22)
+   UNIT_FIELD_FACTIONTEMPLATE = 44000000 (as uint32: 68)
+   UNIT_FIELD_BYTES_0 = 00010001 (as uint32: 16777472)
+   UNIT_VIRTUAL_ITEM_SLOT_DISPLAY[0] = 041d0000 (as uint32: 7428)
+   UNIT_VIRTUAL_ITEM_INFO[0] = 0200010d (as uint32: 218169346)
+   UNIT_VIRTUAL_ITEM_INFO[1] = 03000000 (as uint32: 3)
+   UNIT_FIELD_FLAGS = 00120000 (as uint32: 4608)
+   UNIT_FIELD_AURALEVELS[0] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[1] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[2] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[3] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[4] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[5] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[6] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[7] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[8] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[9] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[0] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[1] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[2] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[3] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[4] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[5] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[6] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[7] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[8] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[9] = eeeeeeee
+   UNIT_FIELD_BASEATTACKTIME[0] = d0070000 (as uint32: 2000)
+   UNIT_FIELD_BASEATTACKTIME[1] = d0070000 (as uint32: 2000)
+   UNIT_FIELD_BOUNDINGRADIUS = 9318c43e (as float: 0.382999986410141)
+   UNIT_FIELD_COMBATREACH = 0000c03f (as float: 1.5)
+   UNIT_FIELD_DISPLAYID = 270b0000 (as uint32: 2855)
+   UNIT_FIELD_BYTES_1 = 00ee0000 (as uint32: 60928)
+   UNIT_NPC_FLAGS = 02000000 (as uint32: 2)
+  Update Data = 
+         02 71 18 00 00 00 10 00 f0 03 00 00 40 00 4c 27     .q.........@.L'
+         bb d7 9a fa 0e 45 9d af c9 43 ef 04 08 42 f2 d3     ª◊ö˙.EùØ…CÔ..BÚ”
+         46 40 00 00 20 40 00 00 00 41 00 00 90 40 72 1c     F@.. @...A..ê@r.
+         97 40 00 00 20 40 db 0f 49 40 00 00 00 00 01 00     ó@.. @€.I@......
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 06 3f     ...............?
+         00 30 8e cf 10 00 00 00 00 00 00 e0 ff ff 01 5e     .0éœ.......‡ˇˇ.^
+         04 08 00 00 00 00 00 71 18 00 00 00 10 00 f0 09     .......q.......
+         00 00 00 d8 05 00 00 00 00 80 3f ee ee ee ee 64     ...ÿ.....Ä?ÓÓÓÓd
+         00 00 00 64 00 00 00 40 42 0f 00 64 00 00 00 64     ...d...@B..d...d
+         00 00 00 40 42 0f 00 16 00 00 00 44 00 00 00 00     ...@B......D....
+         01 00 01 04 1d 00 00 02 00 01 0d 03 00 00 00 00     ................
+         12 00 00 ee ee ee ee ee ee ee ee ee ee ee ee ee     ...ÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee d0 07 00 00 d0 07 00 00 93 18 c4 3e 00     ÓÓÓ–...–...ì.ƒ>.
+         00 c0 3f 27 0b 00 00 00 ee 00 00 02 00 00 00        .¿?'....Ó......
+
+GAME CLIENT:                                          @ 12.9249398708344 s
+  Length = 8
+  Opcode = CMSG_QUESTGIVER_STATUS_QUERY[00000180]
+  Data = 
+         71 18 00 00 00 10 00 f0                             q......
+
+GAME SERVER:                                          @ 12.9855649471283 s
+  Length = 12
+  Opcode = SMSG_QUESTGIVER_STATUS[0181]
+  Data = 
+         71 18 00 00 00 10 00 f0 04 00 00 00                 q..........
+
+GAME SERVER:                                          @ 15.2585380077362 s
+  Length = 57
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d1 a2 04 00 00 40 00 f0 aa 30 19 45 ff 9f f0 43     —¢...@.™0.EˇüC
+         00 c5 32 42 1b d7 90 00 00 00 00 00 00 cc 10 00     .≈2B.◊ê......Ã..
+         00 03 00 00 00 00 6b 19 45 55 ad eb 43 00 45 31     ......k.EU≠ÎC.E1
+         42 0a f0 3e 00 08 78 3f 00                          B.>..x?.
+
+GAME SERVER:                                          @ 15.6503100395203 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         21 bb 00 00 00 10 00 f0 4e e0 14 45 1c b2 ea 43     !ª.....N‡.E.≤ÍC
+         36 55 0d 42 79 d7 90 00 00 00 00 00 00 13 1f 00     6U.By◊ê.........
+         00 01 00 00 00 87 ae 13 45 43 fa e7 43 15 1f 0a     .....áÆ.EC˙ÁC...
+         42                                                  B
+
+GAME SERVER:                                          @ 16.8629639148712 s
+  Length = 53
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         e3 cf 03 00 00 40 00 f0 0a 1b 14 45 44 61 b4 43     „œ...@....EDa¥C
+         fb 79 18 42 db d8 90 00 00 00 00 00 00 ea 19 00     ˚y.B€ÿê......Í..
+         00 02 00 00 00 34 d8 14 45 f8 28 ba 43 20 f8 13     .....4ÿ.E¯(∫C ¯.
+         42 01 08 00 00                                      B....
+
+GAME SERVER:                                          @ 18.0906300544739 s
+  Length = 348
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 683
+  Update Count = 2
+
+  Update Type = CreateObject[2]
+  Object GUID = 44bc0200004000f0 
+  Object Type = ID_UNIT[3]
+  Movement Flags = 0x00600101 [b00000000011000000000000100000001]
+  Position = 2344.2392578125, 339.806396484375, 36.777458190918
+  Orientation = 1.02572453022003
+  Walk Speed = 2.5
+  Run Speed = 6
+  Back Speed = 4.5
+  Swim Speed = 4.72222232818604
+  Back Speed = 2.5
+  Turn Speed = 3.14159274101257
+  Spline Flags = 0x00000000 [b00000000000000000000000000000000]
+  Current Journey Time = 5625
+  Total Journey Time = 9577
+  Spline Count = 5
+  Spline Point = 2337.3916015625, 328.890441894531, 35.4359664916992
+  Spline Point = 2337.05078125, 327.94921875, 35.4359664916992
+  Spline Point = 2340.6806640625, 333.9375, 36.6245460510254
+  Spline Point = 2349.40771484375, 348.330383300781, 36.9995460510254
+  Spline Point = 2349.40771484375, 348.330383300781, 36.9995460510254
+  Creation Flags = 0x00000000 [b00000000000000000000000000000000]
+  Attack cycle = 0x00000001
+  Timer = 00000000
+  Victim = 0000000000000000
+  Mask Block Count = 6
+   OBJECT_FIELD_GUID[0] = 44bc0200 (as uint32: 179268)
+   OBJECT_FIELD_GUID[1] = 004000f0
+   OBJECT_FIELD_TYPE = 09000000 (as uint32: 9)
+   OBJECT_FIELD_ENTRY = eb0f0000 (as uint32: 4075)
+   OBJECT_FIELD_SCALE_X = 0000803f (as float: 1)
+   OBJECT_FIELD_PADDING[0] = eeeeeeee
+   UNIT_FIELD_HEALTH = 64000000 (as uint32: 100)
+   UNIT_FIELD_POWER1 = 14000000 (as uint32: 20)
+   UNIT_FIELD_POWER5 = 40420f00 (as uint32: 1000000)
+   UNIT_FIELD_MAXHEALTH = 64000000 (as uint32: 100)
+   UNIT_FIELD_MAXPOWER1 = 14000000 (as uint32: 20)
+   UNIT_FIELD_MAXPOWER5 = 40420f00 (as uint32: 1000000)
+   UNIT_FIELD_LEVEL = 01000000 (as uint32: 1)
+   UNIT_FIELD_FACTIONTEMPLATE = 1f000000 (as uint32: 31)
+   UNIT_FIELD_BYTES_0 = 00010201 (as uint32: 16908544)
+   UNIT_FIELD_AURALEVELS[0] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[1] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[2] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[3] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[4] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[5] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[6] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[7] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[8] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[9] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[0] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[1] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[2] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[3] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[4] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[5] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[6] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[7] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[8] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[9] = eeeeeeee
+   UNIT_FIELD_BASEATTACKTIME[0] = d0070000 (as uint32: 2000)
+   UNIT_FIELD_BASEATTACKTIME[1] = d0070000 (as uint32: 2000)
+   UNIT_FIELD_BOUNDINGRADIUS = 0000803f (as float: 1)
+   UNIT_FIELD_COMBATREACH = 0000803f (as float: 1)
+   UNIT_FIELD_DISPLAYID = 80080000 (as uint32: 2176)
+   UNIT_FIELD_BYTES_1 = 00ee0000 (as uint32: 60928)
+  Update Data = 
+         02 44 bc 02 00 00 40 00 f0 03 01 01 60 00 ac 3b     .Dº...@....`.¨;
+         bb d7 d4 83 12 45 38 e7 a9 43 1e 1c 13 42 f1 4a     ª◊‘É.E8Á©C...BÒJ
+         83 3f 00 00 20 40 00 00 c0 40 00 00 90 40 72 1c     É?.. @..¿@..ê@r.
+         97 40 00 00 20 40 db 0f 49 40 00 00 00 00 f9 15     ó@.. @€.I@....˘.
+         00 00 69 25 00 00 05 00 00 00 44 16 12 45 fa 71     ..i%......D..E˙q
+         a4 43 6e be 0d 42 d0 10 12 45 80 f9 a3 43 6e be     §Cnæ.B–..EÄ˘£Cnæ
+         0d 42 e4 4a 12 45 00 f8 a6 43 89 7f 12 42 86 d6     .B‰J.E.¯¶Câ.BÜ÷
+         12 45 4a 2a ae 43 89 ff 13 42 86 d6 12 45 4a 2a     .EJ*ÆCâˇ.BÜ÷.EJ*
+         ae 43 89 ff 13 42 00 00 00 00 01 00 00 00 00 00     ÆCâˇ.B..........
+         00 00 00 00 00 00 00 00 00 00 06 3f 00 30 8e 07     ...........?.0é.
+         00 00 00 00 00 00 00 e0 ff ff 01 5e 04 00 00 00     .......‡ˇˇ.^....
+         00 00 00 44 bc 02 00 00 40 00 f0 09 00 00 00 eb     ...Dº...@.....Î
+         0f 00 00 00 00 80 3f ee ee ee ee 64 00 00 00 14     .....Ä?ÓÓÓÓd....
+         00 00 00 40 42 0f 00 64 00 00 00 14 00 00 00 40     ...@B..d.......@
+         42 0f 00 01 00 00 00 1f 00 00 00 00 01 02 01 ee     B..............Ó
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee d0     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ–
+         07 00 00 d0 07 00 00 00 00 80 3f 00 00 80 3f 80     ...–.....Ä?..Ä?Ä
+         08 00 00 00 ee 00 00                                ....Ó..
+
+  Update Type = CreateObject[2]
+  Object GUID = 57240000001000f0 
+  Object Type = ID_UNIT[3]
+  Movement Flags = 0x00600101 [b00000000011000000000000100000001]
+  Position = 2292.22290039063, 394.818969726563, 34.0138893127441
+  Orientation = 0.228998050093651
+  Walk Speed = 2.5
+  Run Speed = 8
+  Back Speed = 4.5
+  Swim Speed = 4.72222232818604
+  Back Speed = 2.5
+  Turn Speed = 3.14159274101257
+  Spline Flags = 0x00000000 [b00000000000000000000000000000000]
+  Current Journey Time = 2437
+  Total Journey Time = 10410
+  Spline Count = 4
+  Spline Point = 2285.87036132813, 392.597564697266, 34.0189323425293
+  Spline Point = 2286.3798828125, 393.45703125, 34.0750770568848
+  Spline Point = 2311.72387695313, 399.364379882813, 33.8096809387207
+  Spline Point = 2311.72387695313, 399.364379882813, 33.8096809387207
+  Creation Flags = 0x00000000 [b00000000000000000000000000000000]
+  Attack cycle = 0x00000001
+  Timer = 00000000
+  Victim = 0000000000000000
+  Mask Block Count = 6
+   OBJECT_FIELD_GUID[0] = 57240000 (as uint32: 9303)
+   OBJECT_FIELD_GUID[1] = 001000f0
+   OBJECT_FIELD_TYPE = 09000000 (as uint32: 9)
+   OBJECT_FIELD_ENTRY = 0a090000 (as uint32: 2314)
+   OBJECT_FIELD_SCALE_X = 0000803f (as float: 1)
+   OBJECT_FIELD_PADDING[0] = eeeeeeee
+   UNIT_FIELD_HEALTH = 64000000 (as uint32: 100)
+   UNIT_FIELD_POWER1 = 1c000000 (as uint32: 28)
+   UNIT_FIELD_POWER5 = 40420f00 (as uint32: 1000000)
+   UNIT_FIELD_MAXHEALTH = 64000000 (as uint32: 100)
+   UNIT_FIELD_MAXPOWER1 = 1c000000 (as uint32: 28)
+   UNIT_FIELD_MAXPOWER5 = 40420f00 (as uint32: 1000000)
+   UNIT_FIELD_LEVEL = 05000000 (as uint32: 5)
+   UNIT_FIELD_FACTIONTEMPLATE = 44000000 (as uint32: 68)
+   UNIT_FIELD_BYTES_0 = 00010001 (as uint32: 16777472)
+   UNIT_FIELD_FLAGS = 00120000 (as uint32: 4608)
+   UNIT_FIELD_AURALEVELS[0] = 01eeeeee
+   UNIT_FIELD_AURALEVELS[1] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[2] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[3] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[4] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[5] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[6] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[7] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[8] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[9] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[0] = 00eeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[1] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[2] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[3] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[4] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[5] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[6] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[7] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[8] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[9] = eeeeeeee
+   UNIT_FIELD_BASEATTACKTIME[0] = d0070000 (as uint32: 2000)
+   UNIT_FIELD_BASEATTACKTIME[1] = d0070000 (as uint32: 2000)
+   UNIT_FIELD_BOUNDINGRADIUS = 9318c43e (as float: 0.382999986410141)
+   UNIT_FIELD_COMBATREACH = 0000c03f (as float: 1.5)
+   UNIT_FIELD_DISPLAYID = c10d0000 (as uint32: 3521)
+   UNIT_FIELD_BYTES_1 = 00ee0000 (as uint32: 60928)
+  Update Data = 
+         02 57 24 00 00 00 10 00 f0 03 01 01 60 00 ac 3b     .W$........`.¨;
+         bb d7 91 43 0f 45 d4 68 c5 43 39 0e 08 42 77 7e     ª◊ëC.E‘h≈C9..Bw~
+         6a 3e 00 00 20 40 00 00 00 41 00 00 90 40 72 1c     j>.. @...A..ê@r.
+         97 40 00 00 20 40 db 0f 49 40 00 00 00 00 85 09     ó@.. @€.I@....Ö.
+         00 00 aa 28 00 00 04 00 00 00 ed dd 0e 45 7d 4c     ..™(......Ì›.E}L
+         c4 43 63 13 08 42 14 e6 0e 45 80 ba c4 43 e1 4c     ƒCc..B.Ê.EÄ∫ƒC·L
+         08 42 95 7b 10 45 a4 ae c7 43 1d 3d 07 42 95 7b     .Bï{.E§Æ«C.=.Bï{
+         10 45 a4 ae c7 43 1d 3d 07 42 00 00 00 00 01 00     .E§Æ«C.=.B......
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 06 3f     ...............?
+         00 30 8e 07 10 00 00 00 00 00 00 e0 ff ff 01 5e     .0é........‡ˇˇ.^
+         04 00 00 00 00 00 00 57 24 00 00 00 10 00 f0 09     .......W$......
+         00 00 00 0a 09 00 00 00 00 80 3f ee ee ee ee 64     .........Ä?ÓÓÓÓd
+         00 00 00 1c 00 00 00 40 42 0f 00 64 00 00 00 1c     .......@B..d....
+         00 00 00 40 42 0f 00 05 00 00 00 44 00 00 00 00     ...@B......D....
+         01 00 01 00 12 00 00 01 ee ee ee ee ee ee ee ee     ........ÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee 00     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ.
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee d0 07 00 00 d0 07 00 00 93     ÓÓÓÓÓÓÓ–...–...ì
+         18 c4 3e 00 00 c0 3f c1 0d 00 00 00 ee 00 00        .ƒ>..¿?¡....Ó..
+
+GAME SERVER:                                          @ 19.2676639556885 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         98 49 00 00 00 10 00 f0 09 64 10 45 01 17 c6 43     òI......d.E..∆C
+         a7 5c 07 42 57 db 90 00 00 00 00 00 00 ef 20 00     ß\.BW€ê......Ô .
+         00 01 00 00 00 31 b5 11 45 f9 44 c6 43 1d 3d 06     .....1µ.E˘D∆C.=.
+         42                                                  B
+
+GAME SERVER:                                          @ 19.4886529445648 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         61 06 04 00 00 40 00 f0 4b d3 13 45 20 4f eb 43     a....@.K”.E OÎC
+         f5 6b 0b 42 7d db 90 00 00 00 00 00 00 4a 11 00     ık.B}€ê......J..
+         00 01 00 00 00 80 45 13 45 6d 95 ee 43 f5 6b 07     .....ÄE.EmïÓCık.
+         42                                                  B
+
+GAME SERVER:                                          @ 20.070955991745 s
+  Length = 53
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d9 63 03 00 00 40 00 f0 60 fb 16 45 28 b6 aa 43     Ÿc...@.`˚.E(∂™C
+         50 29 14 42 4c dc 90 00 00 00 00 00 00 72 14 00     P).BL‹ê......r..
+         00 02 00 00 00 c8 c9 17 45 6d 2d aa 43 50 a9 0c     .....»….Em-™CP©.
+         42 13 f0 bf ff                                      B.øˇ
+
+GAME SERVER:                                          @ 20.2945120334625 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d1 a2 04 00 00 40 00 f0 00 6b 19 45 55 ad eb 43     —¢...@..k.EU≠ÎC
+         00 45 31 42 59 dc 90 00 00 00 00 00 00 99 01 00     .E1BY‹ê......ô..
+         00 01 00 00 00 ff 6a 19 45 81 2a eb 43 00 45 31     .....ˇj.EÅ*ÎC.E1
+         42                                                  B
+
+GAME SERVER:                                          @ 21.2857458591461 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d1 a2 04 00 00 40 00 f0 ff 6a 19 45 81 2a eb 43     —¢...@.ˇj.EÅ*ÎC
+         00 45 31 42 a6 dd 90 00 00 00 00 00 00 4c 27 00     .E1B¶›ê......L'.
+         00 01 00 00 00 c3 4e 18 45 bb 10 f4 43 00 45 32     .....√N.Eª.ÙC.E2
+         42                                                  B
+
+GAME SERVER:                                          @ 21.6663649082184 s
+  Length = 5
+  Opcode = SMSG_CAST_RESULT[012e]
+  Data = 
+         b9 02 00 00 00                                      π....
+
+GAME SERVER:                                          @ 21.8028140068054 s
+  Length = 38
+  Opcode = SMSG_SPELL_GO[0130]
+  Data = 
+         e4 30 0b 00 00 00 00 00 e4 30 0b 00 00 00 00 00     ‰0......‰0......
+         b9 02 00 00 00 01 00 00 40 00 4d 14 15 45 80 cd     π.......@.M..EÄÕ
+         d2 43 d3 8f 07 42                                   “C”è.B
+  Length = 24
+  Opcode = SMSG_SPELLLOGEXECUTE[024a]
+  Data = 
+         e4 30 0b 00 00 00 00 00 b9 02 00 00 01 00 00 00     ‰0......π.......
+         38 00 00 00 01 00 00 00                             8.......
+  Length = 57
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 183
+  Update Count = 3
+
+  Update Type = UpdateObject[0]
+  Object GUID = 3d7fad0600000040 
+  Mask Block Count = 3
+  Object type is unknown; multiple potential updatevalues will be listed.
+   CONTAINER_FIELD_SLOT[0] = 00000000 (as uint32: 0)
+   UNIT_FIELD_AURA[3] = 00000000 (as uint32: 0)
+   CONTAINER_FIELD_SLOT[1] = 00000000 (as uint32: 0)
+   UNIT_FIELD_AURA[4] = 00000000 (as uint32: 0)
+  Update Data = 
+         00 3d 7f ad 06 00 00 00 40 03 00 00 00 00 00 00     .=≠....@.......
+         03 00 00 00 00 00 00 00 00 00 00 00 00 00           ..............
+
+  Update Type = UpdateObject[0]
+  Object GUID = ff2cac0600000040 
+  Mask Block Count = 2
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_CONTAINED[0] = 00000000 (as uint32: 0)
+   UNIT_FIELD_SUMMON[0] = 00000000 (as uint32: 0)
+   GAMEOBJECT_ROTATION[0] = 00000000 (as uint32: 0)
+   DYNAMICOBJECT_BYTES = 00000000 (as uint32: 0)
+   CORPSE_FIELD_FACING = 00000000 (as uint32: 0)
+   ITEM_FIELD_CONTAINED[1] = 00000000 (as uint32: 0)
+   UNIT_FIELD_SUMMON[1] = 00000000 (as uint32: 0)
+   GAMEOBJECT_ROTATION[1] = 00000000 (as uint32: 0)
+   DYNAMICOBJECT_SPELLID = 00000000 (as uint32: 0)
+   CORPSE_FIELD_POS_X = 00000000 (as uint32: 0)
+  Update Data = 
+         00 ff 2c ac 06 00 00 00 40 02 00 03 00 00 00 00     .ˇ,¨....@.......
+         00 00 00 00 00 00 00 00 00 00                       ..........
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_FLAGS = 64000000 (as uint32: 100)
+   UNIT_FIELD_POWER1 = 64000000 (as uint32: 100)
+   GAMEOBJECT_LEVEL[0] = 64000000 (as uint32: 100)
+   CORPSE_FIELD_ITEM[8] = 64000000 (as uint32: 100)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 20 00 00 00     .‰0......... ...
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 64 00 00 00                       ......d...
+  Length = 8
+  Opcode = SMSG_DESTROY_OBJECT[00aa]
+  Data = 
+         ff 2c ac 06 00 00 00 40                             ˇ,¨....@
+  Length = 60
+  Opcode = SMSG_PET_SPELLS[0177]
+  Data = 
+         e3 a8 04 00 00 40 00 f0 00 00 00 00 02 01 00 00     „®...@.........
+         02 00 00 07 01 00 00 07 00 00 00 07 84 0e 00 c1     ............Ñ..¡
+         00 00 00 03 00 00 00 04 00 00 00 05 02 00 00 06     ................
+         01 00 00 06 00 00 00 06 01 84 0e 00                 .........Ñ..
+
+GAME SERVER:                                          @ 22.1053340435028 s
+  Length = 229
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 502
+  Update Count = 2
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_CONTAINED[0] = e3a80400 (as uint32: 305379)
+   UNIT_FIELD_SUMMON[0] = e3a80400 (as uint32: 305379)
+   GAMEOBJECT_ROTATION[0] = e3a80400 (as uint32: 305379)
+   DYNAMICOBJECT_BYTES = e3a80400 (as uint32: 305379)
+   CORPSE_FIELD_FACING = e3a80400 (as uint32: 305379)
+   ITEM_FIELD_CONTAINED[1] = 004000f0
+   UNIT_FIELD_SUMMON[1] = 004000f0
+   GAMEOBJECT_ROTATION[1] = 004000f0
+   DYNAMICOBJECT_SPELLID = 004000f0
+   CORPSE_FIELD_POS_X = 004000f0
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 03 00 00 00 00     .‰0.............
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 e3 a8 04 00 00 40 00 f0           ......„®...@.
+
+  Update Type = CreateObject[2]
+  Object GUID = e3a80400004000f0 
+  Object Type = ID_UNIT[3]
+  Movement Flags = 0x00400000 [b00000000010000000000000000000000]
+  Position = 2385.26879882813, 421.60546875, 33.9737854003906
+  Orientation = 0.428820312023163
+  Walk Speed = 2.5
+  Run Speed = 8
+  Back Speed = 4.5
+  Swim Speed = 4.72222232818604
+  Back Speed = 2.5
+  Turn Speed = 3.14159274101257
+  Creation Flags = 0x00000000 [b00000000000000000000000000000000]
+  Attack cycle = 0x00000001
+  Timer = 00000000
+  Victim = 0000000000000000
+  Mask Block Count = 6
+   OBJECT_FIELD_GUID[0] = e3a80400 (as uint32: 305379)
+   OBJECT_FIELD_GUID[1] = 004000f0
+   OBJECT_FIELD_TYPE = 09000000 (as uint32: 9)
+   OBJECT_FIELD_ENTRY = 44070000 (as uint32: 1860)
+   OBJECT_FIELD_SCALE_X = cdcc4c3f (as float: 0.800000011920929)
+   OBJECT_FIELD_PADDING[0] = eeeeeeee
+   UNIT_FIELD_SUMMONDBY[0] = e4300b00 (as uint32: 733412)
+   UNIT_FIELD_SUMMONDBY[1] = 00000000 (as uint32: 0)
+   UNIT_FIELD_CREATEDBY[0] = e4300b00 (as uint32: 733412)
+   UNIT_FIELD_HEALTH = fb000000 (as uint32: 251)
+   UNIT_FIELD_POWER1 = a6000000 (as uint32: 166)
+   UNIT_FIELD_POWER5 = 70460d00 (as uint32: 870000)
+   UNIT_FIELD_MAXHEALTH = fb000000 (as uint32: 251)
+   UNIT_FIELD_MAXPOWER1 = a6000000 (as uint32: 166)
+   UNIT_FIELD_MAXPOWER5 = 70460d00 (as uint32: 870000)
+   UNIT_FIELD_LEVEL = 0a000000 (as uint32: 10)
+   UNIT_FIELD_FACTIONTEMPLATE = 5a000000 (as uint32: 90)
+   UNIT_FIELD_BYTES_0 = 00020200 (as uint32: 131584)
+   UNIT_FIELD_FLAGS = 08000000 (as uint32: 8)
+   UNIT_FIELD_AURALEVELS[0] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[1] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[2] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[3] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[4] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[5] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[6] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[7] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[8] = eeeeeeee
+   UNIT_FIELD_AURALEVELS[9] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[0] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[1] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[2] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[3] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[4] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[5] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[6] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[7] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[8] = eeeeeeee
+   UNIT_FIELD_AURAAPPLICATIONS[9] = eeeeeeee
+   UNIT_FIELD_BASEATTACKTIME[0] = d0070000 (as uint32: 2000)
+   UNIT_FIELD_BASEATTACKTIME[1] = d0070000 (as uint32: 2000)
+   UNIT_FIELD_BOUNDINGRADIUS = cdcc4c3f (as float: 0.800000011920929)
+   UNIT_FIELD_COMBATREACH = 00000040 (as float: 2)
+   UNIT_FIELD_DISPLAYID = 6c040000 (as uint32: 1132)
+   UNIT_FIELD_MINDAMAGE = f6ae3e40 (as float: 2.97942876815796)
+   UNIT_FIELD_MAXDAMAGE = b6796040 (as float: 3.50742864608765)
+   UNIT_FIELD_BYTES_1 = 00ee0000 (as uint32: 60928)
+   UNIT_FIELD_PETNUMBER = 3bba0100 (as uint32: 113211)
+   UNIT_FIELD_PET_NAME_TIMESTAMP = 543c3d41 (as float: 11.8272285461426)
+   UNIT_FIELD_PETEXPERIENCE = 00000000 (as uint32: 0)
+   UNIT_FIELD_PETNEXTLEVELEXP = ffffff7f
+   UNIT_CREATED_BY_SPELL = b9020000 (as uint32: 697)
+   UNIT_TRAINING_POINTS = 0000eeee
+   UNIT_FIELD_STAT0 = 1f000000 (as uint32: 31)
+   UNIT_FIELD_STAT1 = 19000000 (as uint32: 25)
+   UNIT_FIELD_STAT2 = 1f000000 (as uint32: 31)
+   UNIT_FIELD_STAT3 = 17000000 (as uint32: 23)
+   UNIT_FIELD_STAT4 = 1a000000 (as uint32: 26)
+   UNIT_FIELD_RESISTANCES[0] = f4020000 (as uint32: 756)
+   UNIT_FIELD_RESISTANCES[1] = 00000000 (as uint32: 0)
+   UNIT_FIELD_RESISTANCES[2] = 00000000 (as uint32: 0)
+   UNIT_FIELD_RESISTANCES[3] = 00000000 (as uint32: 0)
+   UNIT_FIELD_RESISTANCES[4] = 00000000 (as uint32: 0)
+   UNIT_FIELD_RESISTANCES[5] = 00000000 (as uint32: 0)
+   UNIT_FIELD_RESISTANCES[6] = 00000000 (as uint32: 0)
+   UNIT_FIELD_ATTACKPOWER = 48000000 (as uint32: 72)
+   UNIT_FIELD_BASE_MANA[0] = 93000000 (as uint32: 147)
+  Update Data = 
+         02 e3 a8 04 00 00 40 00 f0 03 00 00 40 00 5d 4b     .„®...@....@.]K
+         bb d7 4d 14 15 45 80 cd d2 43 28 e5 07 42 56 8e     ª◊M..EÄÕ“C(Â.BVé
+         db 3e 00 00 20 40 00 00 00 41 00 00 90 40 72 1c     €>.. @...A..ê@r.
+         97 40 00 00 20 40 db 0f 49 40 00 00 00 00 01 00     ó@.. @€.I@......
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 06 3f     ...............?
+         70 30 8e 07 10 00 00 00 00 00 00 e0 ff ff 01 5e     p0é........‡ˇˇ.^
+         7f e4 ff 0f 00 00 00 e3 a8 04 00 00 40 00 f0 09     ‰ˇ....„®...@..
+         00 00 00 44 07 00 00 cd cc 4c 3f ee ee ee ee e4     ...D...ÕÃL?ÓÓÓÓ‰
+         30 0b 00 00 00 00 00 e4 30 0b 00 fb 00 00 00 a6     0......‰0..˚...¶
+         00 00 00 70 46 0d 00 fb 00 00 00 a6 00 00 00 70     ...pF..˚...¶...p
+         46 0d 00 0a 00 00 00 5a 00 00 00 00 02 02 00 08     F......Z........
+         00 00 00 ee ee ee ee ee ee ee ee ee ee ee ee ee     ...ÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee     ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ
+         ee ee ee d0 07 00 00 d0 07 00 00 cd cc 4c 3f 00     ÓÓÓ–...–...ÕÃL?.
+         00 00 40 6c 04 00 00 f6 ae 3e 40 b6 79 60 40 00     ..@l...ˆÆ>@∂y`@.
+         ee 00 00 3b ba 01 00 54 3c 3d 41 00 00 00 00 ff     Ó..;∫..T<=A....ˇ
+         ff ff 7f b9 02 00 00 00 00 ee ee 1f 00 00 00 19     ˇˇπ.....ÓÓ.....
+         00 00 00 1f 00 00 00 17 00 00 00 1a 00 00 00 f4     ...............Ù
+         02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 48 00 00 00 93     ...........H...ì
+         00 00 00                                            ...
+
+GAME CLIENT:                                          @ 22.2267558574677 s
+  Length = 8
+  Opcode = CMSG_SET_TARGET[0000013c]
+  Data = 
+         e3 a8 04 00 00 40 00 f0                             „®...@.
+
+GAME SERVER:                                          @ 22.4872379302979 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         44 bc 02 00 00 40 00 f0 86 d6 12 45 4a 2a ae 43     Dº...@.Ü÷.EJ*ÆC
+         89 ff 13 42 cd de 90 00 00 00 00 00 00 75 07 00     âˇ.BÕﬁê......u..
+         00 01 00 00 00 7b ad 12 45 c7 27 ac 43 89 7f 14     .....{≠.E«'¨Câ.
+         42                                                  B
+
+GAME SERVER:                                          @ 22.7069389820099 s
+  Length = 42
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 165
+  Update Count = 2
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_SPELL_CHARGES[0] = e3a80400 (as uint32: 305379)
+   UNIT_FIELD_TARGET[0] = e3a80400 (as uint32: 305379)
+   GAMEOBJECT_POS_Z = e3a80400 (as uint32: 305379)
+   CORPSE_FIELD_ITEM[3] = e3a80400 (as uint32: 305379)
+   ITEM_FIELD_SPELL_CHARGES[1] = 004000f0
+   UNIT_FIELD_TARGET[1] = 004000f0
+   GAMEOBJECT_FACING = 004000f0
+   CORPSE_FIELD_ITEM[4] = 004000f0
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 03 00 00 00     .‰0.............
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 e3 a8 04 00 00 40 00 f0           ......„®...@.
+
+  Update Type = UpdateObject[0]
+  Object GUID = e3a80400004000f0 
+  Mask Block Count = 6
+  Update Data = 
+         00 e3 a8 04 00 00 40 00 f0 06 00 00 00 00 00 00     .„®...@........
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00                                               ..
+
+GAME SERVER:                                          @ 22.9094769954681 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         e3 a8 04 00 00 40 00 f0 4d 14 15 45 80 cd d2 43     „®...@.M..EÄÕ“C
+         28 e5 07 42 58 df 90 00 00 00 00 00 00 b1 04 00     (Â.BXﬂê......±..
+         00 01 00 00 00 58 00 15 45 bb 2a d4 43 c5 b4 07     .....X..Eª*‘C≈¥.
+         42                                                  B
+  Length = 31
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 127
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_FLAGS = 6c000000 (as uint32: 108)
+   UNIT_FIELD_POWER1 = 6c000000 (as uint32: 108)
+   GAMEOBJECT_LEVEL[0] = 6c000000 (as uint32: 108)
+   CORPSE_FIELD_ITEM[8] = 6c000000 (as uint32: 108)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 20 00 00 00     .‰0......... ...
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 6c 00 00 00                       ......l...
+
+GAME CLIENT:                                          @ 23.6238188743591 s
+  Length = 8
+  Opcode = CMSG_SET_TARGET[0000013c]
+  Data = 
+         00 00 00 00 00 00 00 00                             ........
+
+GAME SERVER:                                          @ 23.7046098709106 s
+  Length = 28
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 131
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_SPELL_CHARGES[0] = 00000000 (as uint32: 0)
+   UNIT_FIELD_TARGET[0] = 00000000 (as uint32: 0)
+   GAMEOBJECT_POS_Z = 00000000 (as uint32: 0)
+   CORPSE_FIELD_ITEM[3] = 00000000 (as uint32: 0)
+   ITEM_FIELD_SPELL_CHARGES[1] = 00000000 (as uint32: 0)
+   UNIT_FIELD_TARGET[1] = 00000000 (as uint32: 0)
+   GAMEOBJECT_FACING = 00000000 (as uint32: 0)
+   CORPSE_FIELD_ITEM[4] = 00000000 (as uint32: 0)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 03 00 00 00     .‰0.............
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00           ..............
+
+GAME CLIENT:                                          @ 23.8246488571167 s
+  Length = 8
+  Opcode = CMSG_SET_TARGET[0000013c]
+  Data = 
+         e3 a8 04 00 00 40 00 f0                             „®...@.
+
+GAME SERVER:                                          @ 23.9483389854431 s
+  Length = 63
+  Opcode = SMSG_MESSAGECHAT[0096]
+  Data = 
+         0d 00 00 00 00 47 65 6e 65 72 61 6c 20 2d 20 54     .....General - T
+         69 72 69 73 66 61 6c 20 47 6c 61 64 65 73 00 1c     irisfal Glades..
+         3f 0e 00 00 00 00 00 61 6e 79 6f 6e 65 20 6d 61     ?......anyone ma
+         6b 69 6e 67 20 64 61 67 67 65 72 73 3f 00 00        king daggers?..
+
+GAME CLIENT:                                          @ 23.9570739269257 s
+  Length = 8
+  Opcode = CMSG_NAME_QUERY[00000050]
+  Data = 
+         1c 3f 0e 00 00 00 00 00                             .?......
+
+GAME SERVER:                                          @ 23.9933910369873 s
+  Length = 26
+  Opcode = SMSG_NAME_QUERY_RESPONSE[0051]
+  Data = 
+         1c 3f 0e 00 00 00 00 00 57 79 74 68 65 00 02 00     .?......Wythe...
+         00 00 00 00 00 00 04 00 00 00                       ..........
+
+GAME CLIENT:                                          @ 24.0910398960114 s
+  Length = 24
+  Opcode = MSG_MOVE_START_TURN_LEFT[000000bc]
+  Location: 3.08047105100893e-036, 2385.26879882813, 421.60546875
+  Data = 
+         10 00 00 00 5c 07 83 04 4d 14 15 45 80 cd d2 43     ....\.É.M..EÄÕ“C
+         d3 8f 07 42 56 8e db 3e                             ”è.BVé€>
+
+GAME SERVER:                                          @ 24.1289908885956 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         21 bb 00 00 00 10 00 f0 87 ae 13 45 43 fa e7 43     !ª.....áÆ.EC˙ÁC
+         15 1f 0a 42 92 e0 90 00 00 00 00 00 00 51 1f 00     ...Bí‡ê......Q..
+         00 01 00 00 00 29 e1 14 45 be 11 e5 43 15 1f 0d     .....)·.Eæ.ÂC...
+         42                                                  B
+  Length = 53
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         e3 a8 04 00 00 40 00 f0 a9 00 15 45 35 25 d4 43     „®...@.©..E5%‘C
+         bf b2 07 42 b1 e0 90 00 04 f4 7a 2a 3f 00 01 00     ø≤.B±‡ê..Ùz*?...
+         00 00 00 00 00 01 00 00 00 a9 00 15 45 35 25 d4     .........©..E5%‘
+         43 bf b2 07 42                                      Cø≤.B
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         61 06 04 00 00 40 00 f0 80 45 13 45 6d 95 ee 43     a....@.ÄE.EmïÓC
+         f5 6b 07 42 b4 e0 90 00 00 00 00 00 00 00 15 00     ık.B¥‡ê.........
+         00 01 00 00 00 01 e2 13 45 05 01 ea 43 f5 6b 0b     ......‚.E..ÍCık.
+         42                                                  B
+  Length = 42
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 165
+  Update Count = 2
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_SPELL_CHARGES[0] = e3a80400 (as uint32: 305379)
+   UNIT_FIELD_TARGET[0] = e3a80400 (as uint32: 305379)
+   GAMEOBJECT_POS_Z = e3a80400 (as uint32: 305379)
+   CORPSE_FIELD_ITEM[3] = e3a80400 (as uint32: 305379)
+   ITEM_FIELD_SPELL_CHARGES[1] = 004000f0
+   UNIT_FIELD_TARGET[1] = 004000f0
+   GAMEOBJECT_FACING = 004000f0
+   CORPSE_FIELD_ITEM[4] = 004000f0
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 03 00 00 00     .‰0.............
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 e3 a8 04 00 00 40 00 f0           ......„®...@.
+
+  Update Type = UpdateObject[0]
+  Object GUID = e3a80400004000f0 
+  Mask Block Count = 6
+  Update Data = 
+         00 e3 a8 04 00 00 40 00 f0 06 00 00 00 00 00 00     .„®...@........
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00                                               ..
+
+GAME CLIENT:                                          @ 24.2784368991852 s
+  Length = 8
+  Opcode = CMSG_SET_TARGET[0000013c]
+  Data = 
+         00 00 00 00 00 00 00 00                             ........
+
+GAME CLIENT:                                          @ 24.278951883316 s
+  Length = 24
+  Opcode = MSG_MOVE_STOP_TURN[000000be]
+  Location: 3.08053849270142e-036, 2385.26879882813, 421.60546875
+  Data = 
+         00 00 00 00 18 08 83 04 4d 14 15 45 80 cd d2 43     ......É.M..EÄÕ“C
+         d3 8f 07 42 01 7d 82 3f                             ”è.B.}Ç?
+
+GAME CLIENT:                                          @ 24.4067878723145 s
+  Length = 8
+  Opcode = CMSG_SET_SELECTION[0000013b]
+  Data = 
+         e3 a8 04 00 00 40 00 f0                             „®...@.
+
+GAME CLIENT:                                          @ 24.4090559482574 s
+  Length = 8
+  Opcode = CMSG_SET_TARGET[0000013c]
+  Data = 
+         e3 a8 04 00 00 40 00 f0                             „®...@.
+
+GAME SERVER:                                          @ 24.5104670524597 s
+  Length = 49
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 173
+  Update Count = 2
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_SPELL_CHARGES[0] = e3a80400 (as uint32: 305379)
+   UNIT_FIELD_TARGET[0] = e3a80400 (as uint32: 305379)
+   GAMEOBJECT_POS_Z = e3a80400 (as uint32: 305379)
+   CORPSE_FIELD_ITEM[3] = e3a80400 (as uint32: 305379)
+   ITEM_FIELD_SPELL_CHARGES[1] = 004000f0
+   UNIT_FIELD_TARGET[1] = 004000f0
+   GAMEOBJECT_FACING = 004000f0
+   CORPSE_FIELD_ITEM[4] = 004000f0
+   PLAYER_SELECTION[0] = e3a80400 (as uint32: 305379)
+   PLAYER_SELECTION[1] = 004000f0
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 03 00 00 00     .‰0.............
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 30 00     ..............0.
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 e3 a8 04 00 00 40 00 f0 e3 a8     ......„®...@.„®
+         04 00 00 40 00 f0                                   ...@.
+
+  Update Type = UpdateObject[0]
+  Object GUID = e3a80400004000f0 
+  Mask Block Count = 6
+  Update Data = 
+         00 e3 a8 04 00 00 40 00 f0 06 00 00 00 00 00 00     .„®...@........
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00                                               ..
+
+GAME CLIENT:                                          @ 24.7070009708405 s
+  Length = 8
+  Opcode = CMSG_SET_TARGET[0000013c]
+  Data = 
+         00 00 00 00 00 00 00 00                             ........
+
+GAME SERVER:                                          @ 24.7198710441589 s
+  Length = 74
+  Opcode = SMSG_MESSAGECHAT[0096]
+  Data = 
+         0d 00 00 00 00 47 65 6e 65 72 61 6c 20 2d 20 54     .....General - T
+         69 72 69 73 66 61 6c 20 47 6c 61 64 65 73 00 84     irisfal Glades.Ñ
+         2f 12 00 00 00 00 00 69 20 68 61 76 65 20 74 6f     /......i have to
+         20 77 72 69 74 65 20 61 62 6f 75 74 20 6d 79 20      write about my 
+         66 65 65 6c 69 6e 67 73 00 00                       feelings..
+
+GAME SERVER:                                          @ 24.9219779968262 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         44 bc 02 00 00 40 00 f0 7b ad 12 45 c7 27 ac 43     Dº...@.{≠.E«'¨C
+         89 7f 14 42 87 e1 90 00 00 00 00 00 00 8d 14 00     â.Bá·ê......ç..
+         00 01 00 00 00 bc c3 12 45 37 9e a5 43 6e be 15     .....º√.E7û•Cnæ.
+         42                                                  B
+  Length = 31
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 135
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_SPELL_CHARGES[0] = 00000000 (as uint32: 0)
+   UNIT_FIELD_TARGET[0] = 00000000 (as uint32: 0)
+   GAMEOBJECT_POS_Z = 00000000 (as uint32: 0)
+   CORPSE_FIELD_ITEM[3] = 00000000 (as uint32: 0)
+   ITEM_FIELD_SPELL_CHARGES[1] = 00000000 (as uint32: 0)
+   UNIT_FIELD_TARGET[1] = 00000000 (as uint32: 0)
+   GAMEOBJECT_FACING = 00000000 (as uint32: 0)
+   CORPSE_FIELD_ITEM[4] = 00000000 (as uint32: 0)
+   ITEM_FIELD_FLAGS = 74000000 (as uint32: 116)
+   UNIT_FIELD_POWER1 = 74000000 (as uint32: 116)
+   GAMEOBJECT_LEVEL[0] = 74000000 (as uint32: 116)
+   CORPSE_FIELD_ITEM[8] = 74000000 (as uint32: 116)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 23 00 00 00     .‰0.........#...
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 00     ..............t.
+         00 00                                               ..
+
+GAME SERVER:                                          @ 25.2918648719788 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         57 24 00 00 00 10 00 f0 33 5d 10 45 fc 75 c7 43     W$.....3].E¸u«C
+         7a 51 07 42 f3 e1 90 00 00 00 00 00 00 bf 29 00     zQ.BÛ·ê......ø).
+         00 01 00 00 00 84 08 12 45 2b 20 c7 43 7a 60 06     .....Ñ..E+ «Cz`.
+         42                                                  B
+
+GAME SERVER:                                          @ 26.0981540679932 s
+  Length = 53
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d9 63 03 00 00 40 00 f0 c8 c9 17 45 6d 2d aa 43     Ÿc...@.»….Em-™C
+         50 a9 0c 42 cb e2 90 00 00 00 00 00 00 2e 1d 00     P©.BÀ‚ê.........
+         00 02 00 00 00 31 ac 16 45 7a ad ac 43 50 a9 15     .....1¨.Ez≠¨CP©.
+         42 e6 3f 00 01                                      BÊ?..
+
+GAME SERVER:                                          @ 26.4980809688568 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         98 49 00 00 00 10 00 f0 90 84 11 45 58 3e c6 43     òI.....êÑ.EX>∆C
+         09 62 06 42 38 e3 90 00 00 00 00 00 00 60 11 00     .b.B8„ê......`..
+         00 01 00 00 00 b5 2d 12 45 f9 84 c4 43 7a 60 06     .....µ-.E˘ÑƒCz`.
+         42                                                  B
+
+GAME SERVER:                                          @ 26.9198899269104 s
+  Length = 31
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 127
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_FLAGS = 7c000000 (as uint32: 124)
+   UNIT_FIELD_POWER1 = 7c000000 (as uint32: 124)
+   GAMEOBJECT_LEVEL[0] = 7c000000 (as uint32: 124)
+   CORPSE_FIELD_ITEM[8] = 7c000000 (as uint32: 124)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 20 00 00 00     .‰0......... ...
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 7c 00 00 00                       ......|...
+
+GAME SERVER:                                          @ 27.9222810268402 s
+  Length = 74
+  Opcode = SMSG_MESSAGECHAT[0096]
+  Data = 
+         0d 00 00 00 00 47 65 6e 65 72 61 6c 20 2d 20 54     .....General - T
+         69 72 69 73 66 61 6c 20 47 6c 61 64 65 73 00 3b     irisfal Glades.;
+         3f 0c 00 00 00 00 00 68 6f 6d 65 77 6f 72 6b 20     ?......homework 
+         69 73 20 6f 6e 6c 79 20 31 2f 33 20 6f 66 20 74     is only 1/3 of t
+         68 65 20 67 72 61 64 65 00 00                       he grade..
+
+GAME SERVER:                                          @ 28.9117929935455 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         e3 cf 03 00 00 40 00 f0 34 d8 14 45 f8 28 ba 43     „œ...@.4ÿ.E¯(∫C
+         20 f8 13 42 e0 e5 90 00 00 00 00 00 00 28 0e 00      ¯.B‡Âê......(..
+         00 01 00 00 00 63 de 14 45 ac ac be 43 20 78 11     .....cﬁ.E¨¨æC x.
+         42                                                  B
+
+GAME SERVER:                                          @ 29.1460859775543 s
+  Length = 31
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 127
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_FLAGS = 85000000 (as uint32: 133)
+   UNIT_FIELD_POWER1 = 85000000 (as uint32: 133)
+   GAMEOBJECT_LEVEL[0] = 85000000 (as uint32: 133)
+   CORPSE_FIELD_ITEM[8] = 85000000 (as uint32: 133)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 20 00 00 00     .‰0......... ...
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 85 00 00 00                       ......Ö...
+
+GAME SERVER:                                          @ 30.1111440658569 s
+  Length = 57
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         98 49 00 00 00 10 00 f0 59 0d 12 45 66 d9 c4 43     òI.....Y..EfŸƒC
+         b6 59 06 42 12 e7 90 00 00 00 00 00 00 63 2c 00     ∂Y.B.Áê......c,.
+         00 03 00 00 00 39 03 13 45 cd 00 b9 43 7a 60 11     .....9..EÕ.πCz`.
+         42 14 08 bf 01 04 c0 bf 00                          B..ø..¿ø.
+
+GAME SERVER:                                          @ 30.2542328834534 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         61 06 04 00 00 40 00 f0 01 e2 13 45 05 01 ea 43     a....@..‚.E..ÍC
+         f5 6b 0b 42 33 e7 90 00 00 00 00 00 00 23 15 00     ık.B3Áê......#..
+         00 01 00 00 00 c6 55 13 45 e4 22 ef 43 f5 eb 07     .....∆U.E‰"ÔCıÎ.
+         42                                                  B
+
+GAME CLIENT:                                          @ 30.911465883255 s
+  Length = 16
+  Opcode = CMSG_PET_SET_ACTION[00000172]
+  Data = 
+         e3 a8 04 00 00 40 00 f0 03 00 00 00 84 0e 00 81     „®...@.....Ñ..Å
+         
+
+GAME SERVER:                                          @ 30.9204359054565 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         44 bc 02 00 00 40 00 f0 bc c3 12 45 37 9e a5 43     Dº...@.º√.E7û•C
+         6e be 15 42 f3 e7 90 00 00 00 00 00 00 1a 07 00     næ.BÛÁê.........
+         00 01 00 00 00 f7 7b 12 45 b5 6f a5 43 6e 3e 13     .....˜{.Eµo•Cn>.
+         42                                                  B
+
+GAME SERVER:                                          @ 31.0586080551147 s
+  Length = 31
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 127
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_FLAGS = 8d000000 (as uint32: 141)
+   UNIT_FIELD_POWER1 = 8d000000 (as uint32: 141)
+   GAMEOBJECT_LEVEL[0] = 8d000000 (as uint32: 141)
+   CORPSE_FIELD_ITEM[8] = 8d000000 (as uint32: 141)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 20 00 00 00     .‰0......... ...
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 8d 00 00 00                       ......ç...
+  Length = 60
+  Opcode = SMSG_PET_SPELLS[0177]
+  Data = 
+         e3 a8 04 00 00 40 00 f0 00 00 00 00 02 01 00 00     „®...@.........
+         02 00 00 07 01 00 00 07 00 00 00 07 84 0e 00 81     ............Ñ..Å
+         00 00 00 03 00 00 00 04 00 00 00 05 02 00 00 06     ................
+         01 00 00 06 00 00 00 06 01 84 0e 00                 .........Ñ..
+
+GAME SERVER:                                          @ 31.3207879066467 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         79 3d 00 00 00 10 00 f0 ca a1 17 45 69 1d cc 43     y=..... °.Ei.ÃC
+         f9 ad 10 42 5d e8 90 00 00 00 00 00 00 7d 11 00     ˘≠.B]Ëê......}..
+         00 01 00 00 00 88 f6 16 45 02 80 ca 43 f9 ad 12     .....àˆ.E.Ä C˘≠.
+         42                                                  B
+
+GAME SERVER:                                          @ 32.1232159137726 s
+  Length = 53
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d1 a2 04 00 00 40 00 f0 c3 4e 18 45 bb 10 f4 43     —¢...@.√N.Eª.ÙC
+         00 45 32 42 44 e9 90 00 00 00 00 00 00 21 2b 00     .E2BDÈê......!+.
+         00 02 00 00 00 0f dc 18 45 ef 09 e7 43 fb b3 29     ......‹.EÔ.ÁC˚≥)
+         42 09 18 7f ff                                      B..ˇ
+
+GAME CLIENT:                                          @ 32.177582025528 s
+  Length = 4
+  Opcode = CMSG_PING[000001da]
+  Data = 
+         1d 00 00 00                                         ....
+
+GAME SERVER:                                          @ 32.2128920555115 s
+  Length = 4
+  Opcode = SMSG_PONG[01db]
+  Data = 
+         1d 00 00 00                                         ....
+
+GAME SERVER:                                          @ 32.52228307724 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         21 bb 00 00 00 10 00 f0 29 e1 14 45 be 11 e5 43     !ª.....)·.Eæ.ÂC
+         15 1f 0d 42 a4 e9 90 00 00 00 00 00 00 1b 08 00     ...B§Èê.........
+         00 01 00 00 00 cb 93 14 45 f5 ff e5 43 15 1f 0c     .....Àì.EıˇÂC...
+         42                                                  B
+
+GAME SERVER:                                          @ 32.9462380409241 s
+  Length = 31
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 127
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_FLAGS = 95000000 (as uint32: 149)
+   UNIT_FIELD_POWER1 = 95000000 (as uint32: 149)
+   GAMEOBJECT_LEVEL[0] = 95000000 (as uint32: 149)
+   CORPSE_FIELD_ITEM[8] = 95000000 (as uint32: 149)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 20 00 00 00     .‰0......... ...
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 95 00 00 00                       ......ï...
+
+GAME SERVER:                                          @ 34.5343549251556 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d9 63 03 00 00 40 00 f0 31 ac 16 45 7a ad ac 43     Ÿc...@.1¨.Ez≠¨C
+         50 a9 15 42 e1 eb 90 00 00 00 00 00 00 28 03 00     P©.B·Îê......(..
+         00 01 00 00 00 1b cc 16 45 67 96 ac 43 50 a9 14     ......Ã.Egñ¨CP©.
+         42                                                  B
+
+GAME SERVER:                                          @ 34.9321360588074 s
+  Length = 53
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         57 24 00 00 00 10 00 f0 0d de 11 45 b3 28 c7 43     W$......ﬁ.E≥(«C
+         67 76 06 42 49 ec 90 00 00 00 00 00 00 59 1e 00     gv.BIÏê......Y..
+         00 02 00 00 00 fe 11 13 45 c0 4b c6 43 7a 60 0d     .....˛..E¿K∆Cz`.
+         42 0d f0 ff 00                                      B.ˇ.
+
+GAME SERVER:                                          @ 35.0823218822479 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         21 bb 00 00 00 10 00 f0 cb 93 14 45 f5 ff e5 43     !ª.....Àì.EıˇÂC
+         15 1f 0c 42 4e ec 90 00 00 00 00 00 00 77 06 00     ...BNÏê......w..
+         00 01 00 00 00 9b d5 14 45 b9 2d e6 43 15 1f 0d     .....õ’.Eπ-ÊC...
+         42                                                  B
+  Length = 31
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 127
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_FLAGS = 9d000000 (as uint32: 157)
+   UNIT_FIELD_POWER1 = 9d000000 (as uint32: 157)
+   GAMEOBJECT_LEVEL[0] = 9d000000 (as uint32: 157)
+   CORPSE_FIELD_ITEM[8] = 9d000000 (as uint32: 157)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 20 00 00 00     .‰0......... ...
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 9d 00 00 00                       ......ù...
+
+GAME SERVER:                                          @ 35.7388529777527 s
+  Length = 53
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d9 63 03 00 00 40 00 f0 1b cc 16 45 67 96 ac 43     Ÿc...@..Ã.Egñ¨C
+         50 a9 14 42 24 ed 90 00 00 00 00 00 00 ab 0c 00     P©.B$Ìê......´..
+         00 02 00 00 00 3a bd 16 45 c5 8b b0 43 50 29 0f     .....:Ω.E≈ã∞CP).
+         42 ff 1f 00 00                                      Bˇ...
+
+GAME SERVER:                                          @ 36.1465029716492 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         79 3d 00 00 00 10 00 f0 88 f6 16 45 02 80 ca 43     y=.....àˆ.E.Ä C
+         f9 ad 12 42 a6 ed 90 00 00 00 00 00 00 0c 0a 00     ˘≠.B¶Ìê.........
+         00 01 00 00 00 d7 e2 16 45 75 a7 cd 43 f9 2d 12     .....◊‚.EußÕC˘-.
+         42                                                  B
+
+GAME SERVER:                                          @ 36.5421369075775 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         61 06 04 00 00 40 00 f0 c6 55 13 45 e4 22 ef 43     a....@.∆U.E‰"ÔC
+         f5 eb 07 42 f9 ed 90 00 00 00 00 00 00 ed 12 00     ıÎ.B˘Ìê......Ì..
+         00 01 00 00 00 99 e3 13 45 5d 0a eb 43 f5 eb 0b     .....ô„.E].ÎCıÎ.
+         42                                                  B
+
+GAME SERVER:                                          @ 36.9781069755554 s
+  Length = 31
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 127
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_FLAGS = a5000000 (as uint32: 165)
+   UNIT_FIELD_POWER1 = a5000000 (as uint32: 165)
+   GAMEOBJECT_LEVEL[0] = a5000000 (as uint32: 165)
+   CORPSE_FIELD_ITEM[8] = a5000000 (as uint32: 165)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 20 00 00 00     .‰0......... ...
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 a5 00 00 00                       ......•...
+
+GAME SERVER:                                          @ 37.3471410274506 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         21 bb 00 00 00 10 00 f0 9b d5 14 45 b9 2d e6 43     !ª.....õ’.Eπ-ÊC
+         15 1f 0d 42 ff ee 90 00 00 00 00 00 00 4a 05 00     ...BˇÓê......J..
+         00 01 00 00 00 d7 ce 14 45 3d 80 e4 43 15 9f 0c     .....◊Œ.E=Ä‰C.ü.
+         42                                                  B
+
+GAME CLIENT:                                          @ 38.0252320766449 s
+  Length = 16
+  Opcode = CMSG_PET_SET_ACTION[00000172]
+  Data = 
+         e3 a8 04 00 00 40 00 f0 03 00 00 00 00 00 00 c1     „®...@........¡
+         
+
+GAME SERVER:                                          @ 38.0993599891663 s
+  Length = 60
+  Opcode = SMSG_PET_SPELLS[0177]
+  Data = 
+         e3 a8 04 00 00 40 00 f0 00 00 00 00 02 01 00 00     „®...@.........
+         02 00 00 07 01 00 00 07 00 00 00 07 00 00 00 01     ................
+         00 00 00 03 00 00 00 04 00 00 00 05 02 00 00 06     ................
+         01 00 00 06 00 00 00 06 01 84 0e 00                 .........Ñ..
+
+GAME SERVER:                                          @ 38.6464688777924 s
+  Length = 92
+  Opcode = SMSG_MESSAGECHAT[0096]
+  Data = 
+         0d 00 00 00 00 47 65 6e 65 72 61 6c 20 2d 20 54     .....General - T
+         69 72 69 73 66 61 6c 20 47 6c 61 64 65 73 00 84     irisfal Glades.Ñ
+         2f 12 00 00 00 00 00 73 74 69 6c 6c 2c 20 69 20     /......still, i 
+         77 61 6e 6e 61 20 6b 65 65 70 20 67 6f 6f 64 20     wanna keep good 
+         72 65 6c 61 74 69 6f 6e 73 20 77 69 74 68 20 74     relations with t
+         68 65 20 74 65 61 63 68 65 72 00 00                 he teacher..
+
+GAME SERVER:                                          @ 38.9674379825592 s
+  Length = 31
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 127
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_FLAGS = ad000000 (as uint32: 173)
+   UNIT_FIELD_POWER1 = ad000000 (as uint32: 173)
+   GAMEOBJECT_LEVEL[0] = ad000000 (as uint32: 173)
+   CORPSE_FIELD_ITEM[8] = ad000000 (as uint32: 173)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 20 00 00 00     .‰0......... ...
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 ad 00 00 00                       ......≠...
+
+GAME CLIENT:                                          @ 39.0218360424042 s
+  Length = 16
+  Opcode = CMSG_PET_SET_ACTION[00000172]
+  Data = 
+         e3 a8 04 00 00 40 00 f0 03 00 00 00 84 0e 00 41     „®...@.....Ñ..A
+         
+
+GAME SERVER:                                          @ 39.0785748958588 s
+  Length = 60
+  Opcode = SMSG_PET_SPELLS[0177]
+  Data = 
+         e3 a8 04 00 00 40 00 f0 00 00 00 00 02 01 00 00     „®...@.........
+         02 00 00 07 01 00 00 07 00 00 00 07 84 0e 00 c1     ............Ñ..¡
+         00 00 00 03 00 00 00 04 00 00 00 05 02 00 00 06     ................
+         01 00 00 06 00 00 00 06 01 84 0e 00                 .........Ñ..
+
+GAME SERVER:                                          @ 39.3596389293671 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d9 63 03 00 00 40 00 f0 3a bd 16 45 c5 8b b0 43     Ÿc...@.:Ω.E≈ã∞C
+         50 29 0f 42 1f f1 90 00 00 00 00 00 00 27 07 00     P).B.Òê......'..
+         00 01 00 00 00 df c4 16 45 6a 57 ae 43 50 a9 13     .....ﬂƒ.EjWÆCP©.
+         42                                                  B
+
+GAME CLIENT:                                          @ 39.7060420513153 s
+  Length = 16
+  Opcode = CMSG_PET_SET_ACTION[00000172]
+  Data = 
+         e3 a8 04 00 00 40 00 f0 03 00 00 00 84 0e 00 81     „®...@.....Ñ..Å
+         
+
+GAME SERVER:                                          @ 39.7612810134888 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         21 bb 00 00 00 10 00 f0 d7 ce 14 45 3d 80 e4 43     !ª.....◊Œ.E=Ä‰C
+         15 9f 0c 42 92 f1 90 00 00 00 00 00 00 04 0d 00     .ü.BíÒê.........
+         00 01 00 00 00 05 87 14 45 1a 02 e8 43 15 1f 0c     ......á.E..ËC...
+         42                                                  B
+
+GAME SERVER:                                          @ 39.9127540588379 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         79 3d 00 00 00 10 00 f0 d7 e2 16 45 75 a7 cd 43     y=.....◊‚.EußÕC
+         f9 2d 12 42 94 f1 90 00 00 00 00 00 00 19 05 00     ˘-.BîÒê.........
+         00 01 00 00 00 f3 f7 16 45 0e 2a cc 43 f9 ad 12     .....Û˜.E.*ÃC˘≠.
+         42                                                  B
+  Length = 60
+  Opcode = SMSG_PET_SPELLS[0177]
+  Data = 
+         e3 a8 04 00 00 40 00 f0 00 00 00 00 02 01 00 00     „®...@.........
+         02 00 00 07 01 00 00 07 00 00 00 07 84 0e 00 81     ............Ñ..Å
+         00 00 00 03 00 00 00 04 00 00 00 05 02 00 00 06     ................
+         01 00 00 06 00 00 00 06 01 84 0e 00                 .........Ñ..
+
+GAME SERVER:                                          @ 40.9619178771973 s
+  Length = 53
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         44 bc 02 00 00 40 00 f0 f7 7b 12 45 b5 6f a5 43     Dº...@.˜{.Eµo•C
+         6e 3e 13 42 c1 f2 90 00 00 00 00 00 00 37 33 00     n>.B¡Úê......73.
+         00 02 00 00 00 76 51 12 45 ff c0 b5 43 89 7f 0d     .....vQ.Eˇ¿µCâ.
+         42 fd d7 c0 ff                                      B˝◊¿ˇ
+
+GAME SERVER:                                          @ 41.118968963623 s
+  Length = 31
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 127
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_FLAGS = b5000000 (as uint32: 181)
+   UNIT_FIELD_POWER1 = b5000000 (as uint32: 181)
+   GAMEOBJECT_LEVEL[0] = b5000000 (as uint32: 181)
+   CORPSE_FIELD_ITEM[8] = b5000000 (as uint32: 181)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 20 00 00 00     .‰0......... ...
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 b5 00 00 00                       ......µ...
+
+GAME SERVER:                                          @ 41.3493988513947 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         98 49 00 00 00 10 00 f0 45 00 13 45 9e 24 b9 43     òI.....E..Eû$πC
+         9d 26 11 42 3a f3 90 00 00 00 00 00 00 4e 1f 00     ù&.B:Ûê......N..
+         00 01 00 00 00 0d fe 12 45 25 22 af 43 89 ff 13     ......˛.E%"ØCâˇ.
+         42                                                  B
+
+GAME SERVER:                                          @ 41.5197520256042 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         79 3d 00 00 00 10 00 f0 f3 f7 16 45 0e 2a cc 43     y=.....Û˜.E.*ÃC
+         f9 ad 12 42 3c f3 90 00 00 00 00 00 00 1f 0a 00     ˘≠.B<Ûê.........
+         00 01 00 00 00 85 cc 16 45 e7 19 cf 43 f9 ad 11     .....ÖÃ.EÁ.œC˘≠.
+         42                                                  B
+
+GAME CLIENT:                                          @ 42.2603960037231 s
+  Length = 20
+  Opcode = CMSG_PET_ACTION[00000173]
+  Data = 
+         e3 a8 04 00 00 40 00 f0 84 0e 00 81 e3 a8 04 00     „®...@.Ñ..Å„®..
+         00 40 00 f0                                         .@.
+
+GAME SERVER:                                          @ 42.3749580383301 s
+  Length = 36
+  Opcode = SMSG_SPELL_START[012f]
+  Data = 
+         e3 a8 04 00 00 40 00 f0 e3 a8 04 00 00 40 00 f0     „®...@.„®...@.
+         84 0e 00 00 02 00 00 00 00 00 02 00 e3 a8 04 00     Ñ...........„®..
+         00 40 00 f0                                         .@.
+
+GAME SERVER:                                          @ 42.5277199745178 s
+  Length = 6
+  Opcode = SMSG_PET_CAST_FAILED[0136]
+  Data = 
+         84 0e 00 00 02 07                                   Ñ.....
+  Length = 53
+  Opcode = SMSG_MESSAGECHAT[0096]
+  Data = 
+         0d 00 00 00 00 47 65 6e 65 72 61 6c 20 2d 20 54     .....General - T
+         69 72 69 73 66 61 6c 20 47 6c 61 64 65 73 00 84     irisfal Glades.Ñ
+         2f 12 00 00 00 00 00 69 6d 20 61 20 73 75 63 6b     /......im a suck
+         20 75 70 00 00                                       up..
+
+GAME SERVER:                                          @ 42.7268269062042 s
+  Length = 57
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         57 24 00 00 00 10 00 f0 c4 0b 13 45 1a 50 c6 43     W$.....ƒ..E.P∆C
+         36 15 0d 42 81 f4 90 00 00 00 00 00 00 5d 1c 00     6..BÅÙê......]..
+         00 03 00 00 00 10 2a 14 45 9d e0 c6 43 20 78 16     ......*.Eù‡∆C x.
+         42 2f 18 80 01 13 08 40 00                          B/.Ä...@.
+
+GAME SERVER:                                          @ 42.9289319515228 s
+  Length = 89
+  Opcode = SMSG_MESSAGECHAT[0096]
+  Data = 
+         0d 00 00 00 00 47 65 6e 65 72 61 6c 20 2d 20 54     .....General - T
+         69 72 69 73 66 61 6c 20 47 6c 61 64 65 73 00 3b     irisfal Glades.;
+         3f 0c 00 00 00 00 00 6a 75 73 74 20 73 6b 69 70     ?......just skip
+         20 69 74 20 6c 69 6b 65 20 69 20 64 69 64 2c 20      it like i did, 
+         61 6e 64 20 73 74 69 6c 6c 20 67 65 74 20 61 20     and still get a 
+         33 2e 35 20 67 70 61 00 00                          3.5 gpa..
+
+GAME SERVER:                                          @ 43.1297550201416 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         61 06 04 00 00 40 00 f0 99 e3 13 45 5d 0a eb 43     a....@.ô„.E].ÎC
+         f5 eb 0b 42 f2 f4 90 00 00 00 00 00 00 d4 12 00     ıÎ.BÚÙê......‘..
+         00 01 00 00 00 28 4b 13 45 40 af ee 43 f5 6b 07     .....(K.E@ØÓCık.
+         42                                                  B
+  Length = 31
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 127
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_FLAGS = be000000 (as uint32: 190)
+   UNIT_FIELD_POWER1 = be000000 (as uint32: 190)
+   GAMEOBJECT_LEVEL[0] = be000000 (as uint32: 190)
+   CORPSE_FIELD_ITEM[8] = be000000 (as uint32: 190)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 20 00 00 00     .‰0......... ...
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 be 00 00 00                       ......æ...
+
+GAME CLIENT:                                          @ 43.3724730014801 s
+  Length = 20
+  Opcode = CMSG_PET_ACTION[00000173]
+  Data = 
+         e3 a8 04 00 00 40 00 f0 02 00 00 06 e3 a8 04 00     „®...@.....„®..
+         00 40 00 f0                                         .@.
+
+GAME SERVER:                                          @ 43.3799240589142 s
+  Length = 53
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d1 a2 04 00 00 40 00 f0 0f dc 18 45 ef 09 e7 43     —¢...@..‹.EÔ.ÁC
+         fb b3 29 42 92 f5 90 00 00 00 00 00 00 db 12 00     ˚≥)Bíıê......€..
+         00 02 00 00 00 11 19 19 45 c3 ab ec 43 00 c5 31     ........E√´ÏC.≈1
+         42 08 d0 00 01                                      B.–..
+
+GAME CLIENT:                                          @ 43.4396729469299 s
+  Length = 8
+  Opcode = CMSG_SET_TARGET[0000013c]
+  Data = 
+         e3 a8 04 00 00 40 00 f0                             „®...@.
+
+GAME CLIENT:                                          @ 43.5063869953156 s
+  Length = 8
+  Opcode = CMSG_SET_TARGET[0000013c]
+  Data = 
+         00 00 00 00 00 00 00 00                             ........
+
+GAME SERVER:                                          @ 43.7755608558655 s
+  Length = 53
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         e3 cf 03 00 00 40 00 f0 63 de 14 45 ac ac be 43     „œ...@.cﬁ.E¨¨æC
+         20 78 11 42 00 f6 90 00 00 00 00 00 00 87 24 00      x.B.ˆê......á$.
+         00 02 00 00 00 82 1e 14 45 5c af b4 43 fb f9 17     .....Ç..E\Ø¥C˚˘.
+         42 e4 97 fe 00                                      B‰ó˛.
+
+GAME SERVER:                                          @ 43.9347538948059 s
+  Length = 42
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 165
+  Update Count = 2
+
+  Update Type = UpdateObject[0]
+  Object GUID = e3a80400004000f0 
+  Mask Block Count = 6
+  Update Data = 
+         00 e3 a8 04 00 00 40 00 f0 06 00 00 00 00 00 00     .„®...@........
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00                                               ..
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_SPELL_CHARGES[0] = 00000000 (as uint32: 0)
+   UNIT_FIELD_TARGET[0] = 00000000 (as uint32: 0)
+   GAMEOBJECT_POS_Z = 00000000 (as uint32: 0)
+   CORPSE_FIELD_ITEM[3] = 00000000 (as uint32: 0)
+   ITEM_FIELD_SPELL_CHARGES[1] = 00000000 (as uint32: 0)
+   UNIT_FIELD_TARGET[1] = 00000000 (as uint32: 0)
+   GAMEOBJECT_FACING = 00000000 (as uint32: 0)
+   CORPSE_FIELD_ITEM[4] = 00000000 (as uint32: 0)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 03 00 00 00     .‰0.............
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00           ..............
+
+GAME SERVER:                                          @ 44.9727540016174 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         79 3d 00 00 00 10 00 f0 85 cc 16 45 e7 19 cf 43     y=.....ÖÃ.EÁ.œC
+         f9 ad 11 42 44 f7 90 00 00 00 00 00 00 bf 12 00     ˘≠.BD˜ê......ø..
+         00 01 00 00 00 55 86 16 45 25 88 c9 43 f9 ad 0e     .....UÜ.E%à…C˘≠.
+         42                                                  B
+
+GAME SERVER:                                          @ 45.1435439586639 s
+  Length = 31
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 127
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_FLAGS = c6000000 (as uint32: 198)
+   UNIT_FIELD_POWER1 = c6000000 (as uint32: 198)
+   GAMEOBJECT_LEVEL[0] = c6000000 (as uint32: 198)
+   CORPSE_FIELD_ITEM[8] = c6000000 (as uint32: 198)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 20 00 00 00     .‰0......... ...
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 c6 00 00 00                       ......∆...
+
+GAME CLIENT:                                          @ 45.2218990325928 s
+  Length = 20
+  Opcode = CMSG_PET_ACTION[00000173]
+  Data = 
+         e3 a8 04 00 00 40 00 f0 03 00 00 07 e3 a8 04 00     „®...@.....„®..
+         00 40 00 f0                                         .@.
+
+GAME SERVER:                                          @ 45.2696979045868 s
+  Length = 8
+  Opcode = SMSG_DESTROY_OBJECT[00aa]
+  Data = 
+         e3 a8 04 00 00 40 00 f0                             „®...@.
+
+GAME CLIENT:                                          @ 45.2763729095459 s
+  Length = 8
+  Opcode = CMSG_SET_SELECTION[0000013b]
+  Data = 
+         00 00 00 00 00 00 00 00                             ........
+
+GAME SERVER:                                          @ 45.3907079696655 s
+  Length = 29
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 131
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   PLAYER_SELECTION[0] = 00000000 (as uint32: 0)
+   PLAYER_SELECTION[1] = 00000000 (as uint32: 0)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 00 00 00 00     .‰0.............
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 30 00     ..............0.
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00           ..............
+
+GAME SERVER:                                          @ 45.5447568893433 s
+  Length = 8
+  Opcode = SMSG_PET_SPELLS[0177]
+  Data = 
+         00 00 00 00 00 00 00 00                             ........
+  Length = 12
+  Opcode = SMSG_COOLDOWN_EVENT[0133]
+  Data = 
+         b9 02 00 00 e4 30 0b 00 00 00 00 00                 π...‰0......
+
+GAME SERVER:                                          @ 45.7962100505829 s
+  Length = 27
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 131
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_CONTAINED[0] = 00000000 (as uint32: 0)
+   UNIT_FIELD_SUMMON[0] = 00000000 (as uint32: 0)
+   GAMEOBJECT_ROTATION[0] = 00000000 (as uint32: 0)
+   DYNAMICOBJECT_BYTES = 00000000 (as uint32: 0)
+   CORPSE_FIELD_FACING = 00000000 (as uint32: 0)
+   ITEM_FIELD_CONTAINED[1] = 00000000 (as uint32: 0)
+   UNIT_FIELD_SUMMON[1] = 00000000 (as uint32: 0)
+   GAMEOBJECT_ROTATION[1] = 00000000 (as uint32: 0)
+   DYNAMICOBJECT_SPELLID = 00000000 (as uint32: 0)
+   CORPSE_FIELD_POS_X = 00000000 (as uint32: 0)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 03 00 00 00 00     .‰0.............
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00           ..............
+
+GAME SERVER:                                          @ 47.0217349529266 s
+  Length = 31
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 127
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_FLAGS = ce000000 (as uint32: 206)
+   UNIT_FIELD_POWER1 = ce000000 (as uint32: 206)
+   GAMEOBJECT_LEVEL[0] = ce000000 (as uint32: 206)
+   CORPSE_FIELD_ITEM[8] = ce000000 (as uint32: 206)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 20 00 00 00     .‰0......... ...
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 ce 00 00 00                       ......Œ...
+
+GAME SERVER:                                          @ 47.385617017746 s
+  Length = 53
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         21 bb 00 00 00 10 00 f0 05 87 14 45 1a 02 e8 43     !ª......á.E..ËC
+         15 1f 0c 42 d5 f9 90 00 00 00 00 00 00 74 03 00     ...B’˘ê......t..
+         00 02 00 00 00 aa 80 14 45 aa 12 e9 43 15 9f 0c     .....™Ä.E™.ÈC.ü.
+         42 00 20 40 00                                      B. @.
+
+GAME SERVER:                                          @ 48.5875380039215 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         57 24 00 00 00 10 00 f0 28 f8 13 45 dc c6 c6 43     W$.....(¯.E‹∆∆C
+         f6 17 16 42 03 fb 90 00 00 00 00 00 00 0f 05 00     ˆ..B.˚ê.........
+         00 01 00 00 00 1d 2b 14 45 b2 7c c6 43 20 78 16     ......+.E≤|∆C x.
+         42                                                  B
+
+GAME SERVER:                                          @ 48.7639009952545 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         98 49 00 00 00 10 00 f0 45 fe 12 45 b2 1f b0 43     òI.....E˛.E≤.∞C
+         78 b0 13 42 05 fb 90 00 00 00 00 00 00 fa 23 00     x∞.B.˚ê......˙#.
+         00 01 00 00 00 06 d6 12 45 f9 ae a4 43 6e be 15     ......÷.E˘Æ§Cnæ.
+         42                                                  B
+  Length = 61
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         21 bb 00 00 00 10 00 f0 aa 80 14 45 aa 12 e9 43     !ª.....™Ä.E™.ÈC
+         15 9f 0c 42 07 fb 90 00 00 00 00 00 00 fe 12 00     .ü.B.˚ê......˛..
+         00 04 00 00 00 00 bb 14 45 ff 57 e3 43 15 1f 0c     ......ª.EˇW„C...
+         42 0e b0 3e 00 0c f0 3e 00 08 78 3f 00              B.∞>..>..x?.
+
+GAME SERVER:                                          @ 49.0089190006256 s
+  Length = 31
+  Opcode = SMSG_COMPRESSED_UPDATE_OBJECT[01f4]
+  Decompressed Length = 127
+  Update Count = 1
+
+  Update Type = UpdateObject[0]
+  Object GUID = e4300b0000000000 
+  Mask Block Count = 27
+  Object type is unknown; multiple potential updatevalues will be listed.
+   ITEM_FIELD_FLAGS = d6000000 (as uint32: 214)
+   UNIT_FIELD_POWER1 = d6000000 (as uint32: 214)
+   GAMEOBJECT_LEVEL[0] = d6000000 (as uint32: 214)
+   CORPSE_FIELD_ITEM[8] = d6000000 (as uint32: 214)
+  Update Data = 
+         00 e4 30 0b 00 00 00 00 00 1b 00 00 20 00 00 00     .‰0......... ...
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00     ................
+         00 00 00 00 00 00 d6 00 00 00                       ......÷...
+
+GAME SERVER:                                          @ 49.176698923111 s
+  Length = 32
+  Opcode = MSG_MOVE_STOP_TURN[00be]
+  Data = 
+         26 2e 12 00 00 00 00 00 01 00 40 00 1b b7 bb d7     &.........@..∑ª◊
+         35 bc 0f 45 7e dc be 43 11 f8 08 42 44 fc e9 3f     5º.E~‹æC.¯.BD¸È?
+         
+
+GAME SERVER:                                          @ 49.397686958313 s
+  Length = 49
+  Opcode = SMSG_MONSTER_MOVE[00dd]
+  Data = 
+         d1 a2 04 00 00 40 00 f0 11 19 19 45 c3 ab ec 43     —¢...@....E√´ÏC
+         00 c5 31 42 12 fc 90 00 00 00 00 00 00 12 17 00     .≈1B.¸ê.........
+         00 01 00 00 00 bb b1 18 45 bf 4e f3 43 00 c5 30     .....ª±.EøNÛC.≈0
+         42                                                  B
+
